@@ -1,4 +1,4 @@
-# Quiz 01 — Estructuras de datos lineales y algoritmos de ordenamiento
+# ❓ Quiz 01 — Estructuras de datos lineales y algoritmos de ordenamiento
 
 **Instrucciones**: 10 preguntas. En las de selección múltiple, marca **una** opción. En
 las de análisis y de corrección, escribe tu respuesta con una breve justificación. El
@@ -9,7 +9,7 @@ problema final se entrega como código.
 
 ---
 
-## 1. [Selección múltiple]
+## 1️⃣ [🔘 Selección múltiple]
 
 ¿Cuál de las siguientes afirmaciones describe **mejor** por qué conviene usar una lista
 en vez de variables sueltas para guardar las cinco calificaciones de un estudiante?
@@ -24,7 +24,7 @@ _RA: RA-1_
 
 ---
 
-## 2. [Selección múltiple]
+## 2️⃣ [🔘 Selección múltiple]
 
 Dada `letras = ["a", "b", "c", "d", "e"]`, ¿qué expresión obtiene `["c", "d"]`?
 
@@ -37,7 +37,7 @@ _RA: RA-2_
 
 ---
 
-## 3. [Selección múltiple]
+## 3️⃣ [🔘 Selección múltiple]
 
 ¿Cuál de las siguientes operaciones **no modifica** la lista original?
 
@@ -50,7 +50,7 @@ _RA: RA-3_
 
 ---
 
-## 4. [Selección múltiple]
+## 4️⃣ [🔘 Selección múltiple]
 
 ¿Cuál es la diferencia principal entre `lista.sort()` y `sorted(lista)`?
 
@@ -64,7 +64,7 @@ _RA: RA-5_
 
 ---
 
-## 5. [Selección múltiple]
+## 5️⃣ [🔘 Selección múltiple]
 
 ¿Qué ocurre al ejecutar el siguiente código?
 
@@ -82,7 +82,7 @@ _RA: RA-8_
 
 ---
 
-## 6. [Análisis de código]
+## 6️⃣ [🔬 Análisis de código]
 
 Analiza el siguiente programa. Indica **qué lista final imprime** `pares` y explica por
 qué `numeros` no cambió.
@@ -102,7 +102,7 @@ _RA: RA-3, RA-4_
 
 ---
 
-## 7. [Análisis de código]
+## 7️⃣ [🔬 Análisis de código]
 
 Analiza el siguiente programa. Indica **qué imprime cada línea**.
 
@@ -120,7 +120,7 @@ _RA: RA-9_
 
 ---
 
-## 8. [Identificación de resultado]
+## 8️⃣ [🎯 Identificación de resultado]
 
 Se ordena la lista `[9, 3, 7, 1]` con el algoritmo de ordenamiento por burbuja
 (comparando pares de vecinos de izquierda a derecha, intercambiando cuando el de la
@@ -136,7 +136,7 @@ _RA: RA-6_
 
 ---
 
-## 9. [Corrección de errores]
+## 9️⃣ [🐛 Corrección de errores]
 
 El siguiente programa debería agregar `"nueva_etiqueta"` a un registro de producto, pero
 falla con un error. Identifica el error y explica cómo corregirlo sin perder la ventaja
@@ -151,7 +151,7 @@ _RA: RA-8_
 
 ---
 
-## 10. [Problema breve de programación]
+## 🔟 [💻 Problema breve de programación]
 
 Una app de mensajería guarda, para cada conversación, el número de mensajes no leídos
 en una lista: `no_leidos = [0, 5, 0, 12, 3, 0, 8]`. Escribe un programa que:

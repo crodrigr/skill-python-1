@@ -1,6 +1,6 @@
-# Desafío 01 — Organizador de una carrera de atletismo
+# 🏆 Desafío 01 — Organizador de una carrera de atletismo
 
-## Problema
+## 🧩 Problema
 
 Una carrera de atletismo registra, para cada corredor que termina, su nombre y su
 tiempo en segundos. Al finalizar la carrera hay que:
@@ -16,7 +16,7 @@ tiempo en segundos. Al finalizar la carrera hay que:
    nombres **distintos** participaron (algunos corredores podrían aparecer registrados
    más de una vez por un error de doble registro).
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: una lista de resultados sin ordenar, cada uno con nombre y tiempo.
 - **Proceso**: elegir estructuras (registro individual, colección de resultados,
@@ -24,7 +24,7 @@ tiempo en segundos. Al finalizar la carrera hay que:
   distintos.
 - **Salida**: el podio (tres primeros) y la cantidad de corredores distintos.
 
-## Solución esperada (guía, no código)
+## 💡 Solución esperada (guía, no código)
 
 1. Cada resultado se representa como una **tupla** `(nombre, tiempo)`: es un registro
    fijo que no debe modificarse una vez cargado.
@@ -37,7 +37,7 @@ tiempo en segundos. Al finalizar la carrera hay que:
 5. Los nombres únicos se obtienen construyendo un **conjunto** a partir de la lista de
    nombres.
 
-## Entrada
+## 📥 Entrada
 
 ```python
 resultados = [
@@ -51,13 +51,13 @@ resultados = [
 ]
 ```
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 Elegir y justificar tupla para el registro y lista para la colección ordenable; usar
 `sorted` con una función `key` para ordenar por tiempo; usar rebanado para el podio;
 construir un conjunto de nombres para contar los corredores distintos.
 
-## Salida
+## 📤 Salida
 
 ```text
 Podio:
@@ -67,7 +67,7 @@ Podio:
 Corredores distintos: 5
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - El registro de cada corredor debe ser una tupla, no una lista.
 - El ordenamiento debe hacerse con `sorted` y una función `key` (no un algoritmo
@@ -78,11 +78,11 @@ Corredores distintos: 5
   y una lista auxiliar.
 - Los identificadores y comentarios deben estar en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Desafío
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-7: analizar un problema y seleccionar el mecanismo de ordenamiento más adecuado,
   justificando la elección.
@@ -91,7 +91,7 @@ Desafío
 - RA-5: ordenar con `sorted` y `key`, y usar rebanado para extraer una parte de la
   lista.
 
-## Casos de prueba
+## 🧪 Casos de prueba
 
 | Entrada (`resultados`) | Salida esperada |
 |--------------------------|------------------|

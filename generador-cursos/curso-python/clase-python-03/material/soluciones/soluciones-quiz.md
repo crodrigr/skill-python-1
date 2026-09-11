@@ -1,4 +1,4 @@
-# Clave del Quiz 01 — Clase 03
+# 🔑 Clave del Quiz 01 — Clase 03
 
 > **Material docente.** No entregar al estudiantado. Referencia rápida:
 > 1-B · 2-A · 3-C · 4-B · 5-B · 6→pares=[8,12,10] · 7→2/True/False · 8-B ·
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Respuesta: **B**
+## 1️⃣ Respuesta: **B**
 
 Agrupar datos del mismo tipo bajo un solo nombre permite recorrerlos y procesarlos con
 un bucle, en vez de repetir la misma lógica con `nota1`, `nota2`, etc. A) es irrelevante
@@ -17,7 +17,7 @@ _RA: RA-1_
 
 ---
 
-## 2. Respuesta: **A**
+## 2️⃣ Respuesta: **A**
 
 `letras[2:4]` toma los índices `2` y `3` (el `4` no se incluye): `["c", "d"]`. B) da
 solo `["c"]`; C) da `["d", "e"]`; D) da una lista vacía (`inicio > fin`).
@@ -26,7 +26,7 @@ _RA: RA-2_
 
 ---
 
-## 3. Respuesta: **C**
+## 3️⃣ Respuesta: **C**
 
 `sorted(lista)` devuelve una lista nueva y no toca la original. `append`, `remove` y
 `pop` sí modifican la lista sobre la que se llaman.
@@ -35,7 +35,7 @@ _RA: RA-3_
 
 ---
 
-## 4. Respuesta: **B**
+## 4️⃣ Respuesta: **B**
 
 `lista.sort()` ordena "en el lugar" (modifica la lista y devuelve `None`);
 `sorted(lista)` construye y devuelve una lista nueva, dejando la original sin cambios.
@@ -46,7 +46,7 @@ _RA: RA-5_
 
 ---
 
-## 5. Respuesta: **B**
+## 5️⃣ Respuesta: **B**
 
 Las tuplas son inmutables: intentar asignar un nuevo valor a una posición lanza
 `TypeError: 'tuple' object does not support item assignment`. No hay forma de
@@ -56,7 +56,7 @@ _RA: RA-8_
 
 ---
 
-## 6. `pares` queda `[8, 12, 10]`
+## 6️⃣ `pares` queda `[8, 12, 10]`
 
 El bucle recorre `numeros` y agrega a `pares` (con `append`) solo los valores pares, en
 el orden en que aparecen: `8`, `12` y `10`. `numeros` no cambia porque el programa nunca
@@ -67,7 +67,7 @@ _RA: RA-3, RA-4_
 
 ---
 
-## 7. Imprime `2`, `True`, `False`
+## 7️⃣ Imprime `2`, `True`, `False`
 
 - `{"oferta", "nuevo", "oferta", "destacado"}` se reduce a tres elementos únicos:
   `oferta`, `nuevo`, `destacado` (los conjuntos no admiten duplicados).
@@ -81,7 +81,7 @@ _RA: RA-9_
 
 ---
 
-## 8. Respuesta: **B**
+## 8️⃣ Respuesta: **B**
 
 Primera pasada sobre `[9, 3, 7, 1]`, comparando vecinos de izquierda a derecha:
 
@@ -96,7 +96,7 @@ _RA: RA-6_
 
 ---
 
-## 9. Error: las tuplas no tienen el método `append`
+## 9️⃣ Error: las tuplas no tienen el método `append`
 
 `producto` es una tupla, y las tuplas no admiten agregar, quitar ni modificar
 elementos: `producto.append(...)` lanza
@@ -116,7 +116,7 @@ _RA: RA-8_
 
 ---
 
-## 10. Solución de referencia
+## 🔟 Solución de referencia
 
 ```python
 # 1. Los mensajes no leídos por conversación pueden repetirse y no tienen por qué

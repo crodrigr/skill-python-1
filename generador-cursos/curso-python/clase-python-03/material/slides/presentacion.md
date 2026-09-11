@@ -21,7 +21,7 @@ Curso: Introducción a la Programación con Python · Duración: 3 horas
 
 ---
 
-## ¿Qué es una estructura de datos lineal?
+## 📏 ¿Qué es una estructura de datos lineal?
 
 ```text
 frutas = ["manzana", "pera", "uva"]
@@ -33,7 +33,7 @@ variables sueltas.
 
 ---
 
-## Crear una lista
+## 📝 Crear una lista
 
 ```python
 calificaciones = [4.5, 6.0, 3.8, 5.5]
@@ -43,7 +43,7 @@ Entre corchetes, elementos separados por comas. El índice empieza en `0`.
 
 ---
 
-## Indexar y rebanar
+## 🔪 Indexar y rebanar
 
 ```python
 frutas[0]      # manzana (primero)
@@ -56,7 +56,7 @@ sublista nueva.
 
 ---
 
-## Manipular listas: agregar
+## 🔧 Manipular listas: agregar
 
 ```python
 tareas.append("estudiar")     # al final
@@ -67,7 +67,7 @@ Ambos modifican la lista original.
 
 ---
 
-## Manipular listas: eliminar y modificar
+## 🔧 Manipular listas: eliminar y modificar
 
 ```python
 tareas.remove("pagar cuentas")  # por valor
@@ -79,7 +79,7 @@ tareas[0] = "nuevo texto"        # por índice
 
 ---
 
-## Recorrer una lista
+## 🔁 Recorrer una lista
 
 ```python
 for fruta in frutas:
@@ -90,7 +90,7 @@ Visita cada elemento, en orden, uno por uno.
 
 ---
 
-## Construir una lista nueva
+## 🧱 Construir una lista nueva
 
 ```python
 aprobados = []
@@ -103,7 +103,7 @@ Recorrer + `if` + `append`: la original no cambia.
 
 ---
 
-## Ordenar: sort vs sorted
+## 🔁 Ordenar: sort vs sorted
 
 ```python
 numeros.sort()          # modifica la lista; devuelve None
@@ -115,7 +115,7 @@ sorted(numeros, reverse=True)
 
 ---
 
-## Ordenar por un criterio: key
+## 🔁 Ordenar por un criterio: key
 
 ```python
 def obtener_nota(registro):
@@ -128,7 +128,7 @@ sorted(estudiantes, key=obtener_nota)
 
 ---
 
-## Buscar y contar
+## 🔎 Buscar y contar
 
 ```python
 "Ana" in nombres        # True/False
@@ -141,7 +141,7 @@ Ninguna de estas modifica la lista original.
 
 ---
 
-## Ordenamiento por burbuja
+## 💧 Ordenamiento por burbuja
 
 ```text
 [5, 1, 4, 2]
@@ -153,7 +153,7 @@ Varias pasadas de comparar-e-intercambiar vecinos.
 
 ---
 
-## Ordenamiento por selección e inserción
+## 🧮 Ordenamiento por selección e inserción
 
 ```text
 Selección:  busca el mínimo restante, lo pone al frente
@@ -164,7 +164,7 @@ Dos estrategias distintas para el mismo resultado: una lista ordenada.
 
 ---
 
-## ¿Algoritmo clásico o `sorted`?
+## 🔁 ¿Algoritmo clásico o `sorted`?
 
 | Objetivo | Usar |
 |----------|------|
@@ -175,7 +175,7 @@ Los clásicos hacen más trabajo cuanto más crece la lista; `sorted` está opti
 
 ---
 
-## Tuplas: datos que no cambian
+## 🔒 Tuplas: datos que no cambian
 
 ```python
 coordenada = (10, 20)
@@ -186,7 +186,7 @@ Igual que una lista, pero **inmutable**: una vez creada, no se modifica.
 
 ---
 
-## Desempaquetar una tupla
+## 📦 Desempaquetar una tupla
 
 ```python
 nombre, nota = ("Ana", 6.5)
@@ -196,7 +196,7 @@ Asigna cada valor de la tupla a una variable, en una sola línea.
 
 ---
 
-## Conjuntos: valores únicos
+## 🎲 Conjuntos: valores únicos
 
 ```python
 set([1, 2, 2, 3, 3, 3])   # {1, 2, 3}
@@ -206,7 +206,7 @@ Sin orden, sin duplicados. Ideal para "¿está?" y "¿cuántos distintos?".
 
 ---
 
-## Operaciones de conjuntos
+## ⚖️ Operaciones de conjuntos
 
 ```python
 a | b    # unión: todos, sin repetir
@@ -216,7 +216,7 @@ a - b    # diferencia: solo en a
 
 ---
 
-## Lista, tupla o conjunto: ¿cuál uso?
+## 📐 Lista, tupla o conjunto: ¿cuál uso?
 
 | | Lista | Tupla | Conjunto |
 |---|---|---|---|
@@ -226,7 +226,7 @@ a - b    # diferencia: solo en a
 
 ---
 
-## Actividad práctica
+## 🛠️ Actividad práctica
 
 **Taller 01 — Gestor de calificaciones de un curso**
 
@@ -235,7 +235,7 @@ obtener el conjunto de aprobados únicos.
 
 ---
 
-## Resumen
+## 📌 Resumen
 
 - Lista: colección ordenada y mutable; se crea, indexa, rebana y manipula con métodos.
 - `sort`/`sorted`, `key` y `reverse`: ordenar sin escribir un algoritmo a mano.
@@ -245,7 +245,7 @@ obtener el conjunto de aprobados únicos.
 
 ---
 
-## Evaluación
+## 📝 Evaluación
 
 **Quiz 01** — 10 preguntas: selección múltiple, análisis de código, identificación de
 resultado, corrección de errores y un problema breve de programación.

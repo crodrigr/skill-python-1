@@ -1,16 +1,16 @@
-# Ejemplo 04 — Ordenar con sort, sorted y key
+# 💡 Ejemplo 04 — Ordenar con sort, sorted y key
 
 **Tema**: `lista.sort()` vs `sorted(lista)`, `reverse`, `key` · **Resultado de
 aprendizaje**: RA-5 · **Nivel**: intermedio
 
-## Problema
+## 🧩 Problema
 
 Un docente tiene los puntajes de un examen en una lista y quiere: obtener una versión
 ordenada de menor a mayor sin alterar el orden original (para conservar el orden de
 llegada de las entregas), obtener una versión ordenada de mayor a menor, y ordenar una
 lista de registros `(nombre, puntaje)` por puntaje.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: lista de puntajes (`int`) y lista de registros `(nombre, puntaje)`.
 - **Proceso**: usar `sorted` (sin modificar el original) con `reverse` para orden
@@ -18,7 +18,7 @@ lista de registros `(nombre, puntaje)` por puntaje.
 - **Salida**: la lista original intacta, su versión ascendente, su versión descendente y
   los registros ordenados por puntaje.
 
-## Solución
+## 💡 Solución
 
 1. Usar `sorted(lista)` para obtener una copia ordenada ascendente sin tocar la
    original.
@@ -26,7 +26,7 @@ lista de registros `(nombre, puntaje)` por puntaje.
 3. Definir una función que devuelva el puntaje de un registro y pasarla como `key` a
    `sorted`.
 
-## Código
+## 💻 Código
 
 ```python
 # Puntajes de un examen, en el orden de entrega
@@ -52,7 +52,7 @@ print("Registros por puntaje (ascendente):", registros_por_puntaje)
 print("Registros por puntaje (descendente):", sorted(registros, key=obtener_puntaje, reverse=True))
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `sorted(puntajes)` construye y devuelve una lista **nueva** ordenada de menor a
    mayor; `puntajes` conserva su orden de entrega original.
@@ -67,7 +67,7 @@ print("Registros por puntaje (descendente):", sorted(registros, key=obtener_punt
 5. Agregar `reverse=True` junto con `key` combina ambos: ordena por puntaje, de mayor a
    menor.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Orden de entrega (original): [78, 95, 60, 88, 72]

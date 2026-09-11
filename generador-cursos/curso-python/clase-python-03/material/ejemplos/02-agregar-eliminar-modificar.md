@@ -1,23 +1,23 @@
-# Ejemplo 02 — Agregar, eliminar y modificar elementos
+# 💡 Ejemplo 02 — Agregar, eliminar y modificar elementos
 
 **Tema**: manipulación de listas (`append`, `insert`, `remove`, `pop`, `del`, asignación
 por índice) · **Resultado de aprendizaje**: RA-3 · **Nivel**: introductorio
 
-## Problema
+## 🧩 Problema
 
 Una lista de tareas pendientes empieza con tres tareas. Durante el día: se agrega una
 tarea nueva al final, se inserta una tarea urgente al principio, se completa (y se
 elimina) una tarea existente por su nombre, y se corrige el texto de otra tarea que
 estaba mal escrita.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: la lista inicial de tareas (`str`).
 - **Proceso**: agregar al final, insertar al principio, eliminar por valor y modificar
   por índice, mostrando el estado de la lista después de cada cambio.
 - **Salida**: el estado final de la lista de tareas.
 
-## Solución
+## 💡 Solución
 
 1. Crear la lista inicial.
 2. Agregar con `append`, insertar con `insert`.
@@ -25,7 +25,7 @@ estaba mal escrita.
 4. Corregir el texto con asignación por índice.
 5. Mostrar el estado tras cada paso.
 
-## Código
+## 💻 Código
 
 ```python
 # Lista inicial de tareas pendientes
@@ -50,7 +50,7 @@ tareas[indice_a_corregir] = "lavar el auto y la moto"
 print("Tras modificar:", tareas)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. La lista empieza con tres tareas en el orden dado.
 2. `tareas.append("estudiar Python")` agrega el nuevo elemento **al final**; modifica la
@@ -63,7 +63,7 @@ print("Tras modificar:", tareas)
    la lista se reordenó); `tareas[indice_a_corregir] = "..."` reemplaza el contenido en
    esa posición sin cambiar el tamaño de la lista.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Inicio: ['comprar pan', 'pagar cuentas', 'lavar el auto']

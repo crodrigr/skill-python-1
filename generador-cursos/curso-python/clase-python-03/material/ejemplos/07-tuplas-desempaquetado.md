@@ -1,27 +1,27 @@
-# Ejemplo 07 — Tuplas y desempaquetado
+# 💡 Ejemplo 07 — Tuplas y desempaquetado
 
 **Tema**: creación de tuplas, acceso por índice, desempaquetado e inmutabilidad ·
 **Resultado de aprendizaje**: RA-8 · **Nivel**: intermedio
 
-## Problema
+## 🧩 Problema
 
 Se quiere registrar la ubicación de un punto en un mapa como un par de coordenadas
 `(x, y)` que no debe modificarse una vez creado, acceder a cada coordenada por separado
 y desempaquetarlas en dos variables con nombre.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: dos números que representan `x` e `y`.
 - **Proceso**: crear una tupla, acceder por índice, desempaquetarla en variables.
 - **Salida**: los valores de `x` e `y` accedidos de las dos formas.
 
-## Solución
+## 💡 Solución
 
 1. Crear la tupla `(x, y)`.
 2. Acceder a cada valor con `[0]` y `[1]`.
 3. Desempaquetar la tupla en dos variables con nombre en una sola línea.
 
-## Código
+## 💻 Código
 
 ```python
 coordenada = (10, 25)
@@ -40,7 +40,7 @@ print("y desempaquetada:", y)
                         # TypeError: 'tuple' object does not support item assignment
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `coordenada = (10, 25)` crea una tupla de dos elementos.
 2. `coordenada[0]` y `coordenada[1]` acceden a cada valor exactamente igual que en una
@@ -53,7 +53,7 @@ print("y desempaquetada:", y)
    `TypeError: 'tuple' object does not support item assignment` en vez de permitir el
    cambio.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Coordenada completa: (10, 25)

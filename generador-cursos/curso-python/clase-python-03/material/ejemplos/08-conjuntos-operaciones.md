@@ -1,9 +1,9 @@
-# Ejemplo 08 — Conjuntos y sus operaciones
+# 💡 Ejemplo 08 — Conjuntos y sus operaciones
 
 **Tema**: construir un conjunto de valores únicos y aplicar unión, intersección y
 diferencia · **Resultado de aprendizaje**: RA-9 · **Nivel**: intermedio
 
-## Problema
+## 🧩 Problema
 
 Una biblioteca registra, por cada préstamo del mes, el nombre de la persona que lo
 pidió; una misma persona puede aparecer varias veces si pidió más de un libro. Se
@@ -11,7 +11,7 @@ necesita saber cuántas personas **distintas** pidieron un préstamo, y comparar
 listas (los lectores de enero y los de febrero) para saber quiénes leyeron en ambos
 meses, quiénes leyeron en cualquiera de los dos, y quiénes leyeron solo en enero.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: lista de préstamos de enero y lista de préstamos de febrero (nombres,
   con posibles repetidos).
@@ -20,7 +20,7 @@ meses, quiénes leyeron en cualquiera de los dos, y quiénes leyeron solo en ene
 - **Salida**: la cantidad de lectores únicos de enero, y los tres resultados de
   comparar los dos meses.
 
-## Solución
+## 💡 Solución
 
 1. Construir un conjunto a partir de cada lista de préstamos con `set(...)`.
 2. Usar `len(...)` sobre el conjunto para contar lectores distintos.
@@ -28,7 +28,7 @@ meses, quiénes leyeron en cualquiera de los dos, y quiénes leyeron solo en ene
    `sorted(...)` para que el orden de la salida sea siempre el mismo (los conjuntos en
    sí no tienen orden).
 
-## Código
+## 💻 Código
 
 ```python
 prestamos_enero = ["Ana", "Luis", "Ana", "Eva", "Luis", "Ana"]
@@ -45,7 +45,7 @@ print("Leyeron en cualquiera de los dos meses:", sorted(lectores_enero | lectore
 print("Leyeron solo en enero:", sorted(lectores_enero - lectores_febrero))
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `prestamos_enero` tiene 6 préstamos, pero "Ana" y "Luis" se repiten.
 2. `set(prestamos_enero)` construye un conjunto que conserva cada nombre **una sola
@@ -62,7 +62,7 @@ print("Leyeron solo en enero:", sorted(lectores_enero - lectores_febrero))
    `sorted(...)` antes de imprimirlo, para obtener siempre una lista ordenada y
    predecible en la pantalla.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Préstamos registrados en enero: 6

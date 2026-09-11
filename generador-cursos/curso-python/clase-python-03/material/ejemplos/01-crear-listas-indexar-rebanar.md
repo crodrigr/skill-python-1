@@ -1,29 +1,29 @@
-# Ejemplo 01 — Crear listas, indexar y rebanar
+# 💡 Ejemplo 01 — Crear listas, indexar y rebanar
 
 **Tema**: creación de listas, indexación positiva/negativa y rebanado · **Resultado de
 aprendizaje**: RA-2 · **Nivel**: introductorio (primero de la secuencia)
 
-## Problema
+## 🧩 Problema
 
 Una tienda de barrio quiere registrar los precios de los cinco productos que más vende
 en un solo lugar, poder consultar el precio de un producto por su posición (incluida la
 posición del último producto sin contar cuántos hay) y obtener rápidamente los precios
 de los tres primeros productos.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: los cinco precios, en el orden en que se venden más (`int`).
 - **Proceso**: guardarlos en una sola estructura; acceder por índice positivo y
   negativo; obtener una porción con rebanado.
 - **Salida**: el primer precio, el último precio y los tres primeros precios.
 
-## Solución
+## 💡 Solución
 
 1. Crear una lista con los cinco precios, en orden.
 2. Acceder al primer elemento con índice `0` y al último con índice `-1`.
 3. Obtener los tres primeros con rebanado `lista[:3]`.
 
-## Código
+## 💻 Código
 
 ```python
 # Precios de los cinco productos más vendidos, ordenados de mayor a menor venta
@@ -42,7 +42,7 @@ print("Precio del quinto más vendido:", ultimo_precio)
 print("Precios de los tres más vendidos:", tres_mas_vendidos)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `precios_mas_vendidos = [2500, 1800, 3200, 990, 4700]` crea una lista de cinco
    enteros; el índice `0` corresponde a `2500` y el índice `4` (o `-1`) a `4700`.
@@ -56,7 +56,7 @@ print("Precios de los tres más vendidos:", tres_mas_vendidos)
    Devuelve una lista **nueva**; la original no se modifica.
 5. `len(precios_mas_vendidos)` cuenta cuántos elementos tiene la lista.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Cantidad de productos registrados: 5

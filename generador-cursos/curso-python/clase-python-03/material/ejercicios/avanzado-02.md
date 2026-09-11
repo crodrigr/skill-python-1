@@ -1,6 +1,6 @@
-# Avanzado 02 — Etiquetas de productos por categoría
+# 🔴 Avanzado 02 — Etiquetas de productos por categoría
 
-## Problema
+## 🧩 Problema
 
 Una tienda guarda sus productos como una lista de registros `(nombre_producto,
 categoria, lista_de_etiquetas)`, donde `lista_de_etiquetas` es una lista de textos que
@@ -22,11 +22,11 @@ Escribe un programa que, para cada categoría distinta presente en `productos`:
    esa categoría, sin repetir.
 3. Muestre la categoría y su conjunto de etiquetas, ordenado alfabéticamente.
 
-## Entrada
+## 📥 Entrada
 
 La lista `productos` dada arriba, fija en el código.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 Obtener primero el conjunto de categorías distintas (con un conjunto construido a
 partir de la lista de productos). Para cada categoría, recorrer `productos` con un
@@ -34,12 +34,12 @@ bucle `for`; cuando la categoría del producto coincida, recorrer sus etiquetas 
 segundo bucle `for` (anidado) y agregarlas a un conjunto de etiquetas de esa categoría
 con `add`. Mostrar el resultado ordenado con `sorted`.
 
-## Salida
+## 📤 Salida
 
 Una línea por categoría, con sus etiquetas únicas ordenadas alfabéticamente, por
 ejemplo: `Deporte: ['cómodo', 'fútbol', 'running', 'unisex']`.
 
-## Restricciones
+## 🚧 Restricciones
 
 - Debe usarse al menos un bucle anidado (un `for` de etiquetas dentro de un `for` de
   productos).
@@ -47,11 +47,11 @@ ejemplo: `Deporte: ['cómodo', 'fútbol', 'running', 'unisex']`.
   comprobación manual de duplicados.
 - Los identificadores y comentarios deben estar en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Avanzado
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-3, RA-4: recorrer listas de registros con bucles, incluidos bucles anidados.
 - RA-8: acceder a los campos de un registro representado como tupla.

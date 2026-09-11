@@ -1,15 +1,15 @@
-# Ejemplo 06 — Ordenamiento por burbuja, paso a paso
+# 💡 Ejemplo 06 — Ordenamiento por burbuja, paso a paso
 
 **Tema**: algoritmo de ordenamiento por burbuja implementado con bucles anidados ·
 **Resultado de aprendizaje**: RA-6, RA-7 · **Nivel**: intermedio-avanzado
 
-## Problema
+## 🧩 Problema
 
 Se quiere ordenar de menor a mayor la lista `[5, 1, 4, 2, 8]` usando el algoritmo de
 ordenamiento por burbuja, implementado a mano (sin `sort`/`sorted`), mostrando el estado
 completo de la lista después de cada pasada para poder seguir el proceso.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: lista de números sin ordenar.
 - **Proceso**: recorrer la lista varias veces (pasadas); en cada pasada, comparar cada
@@ -17,7 +17,7 @@ completo de la lista después de cada pasada para poder seguir el proceso.
   intercambiarlos.
 - **Salida**: el estado de la lista después de cada pasada y la lista final ordenada.
 
-## Solución
+## 💡 Solución
 
 1. Usar un bucle exterior que controla cuántas pasadas se hacen (como máximo, una menos
    que la cantidad de elementos).
@@ -25,7 +25,7 @@ completo de la lista después de cada pasada para poder seguir el proceso.
    comparando e intercambiando cuando corresponde.
 3. Mostrar la lista al final de cada pasada exterior.
 
-## Código
+## 💻 Código
 
 ```python
 numeros = [5, 1, 4, 2, 8]
@@ -44,7 +44,7 @@ for pasada in range(cantidad - 1):
 print("Lista ordenada:", numeros)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `cantidad - 1` pasadas son suficientes como máximo: si hay 5 elementos, con 4 pasadas
    la lista queda garantizada como ordenada.
@@ -60,7 +60,7 @@ print("Lista ordenada:", numeros)
    - Pasada 2: el `5` (el mayor de lo que queda) llega a la penúltima posición.
    - Y así sucesivamente, hasta que no queda nada por mover.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Después de la pasada 1 : [1, 4, 2, 5, 8]

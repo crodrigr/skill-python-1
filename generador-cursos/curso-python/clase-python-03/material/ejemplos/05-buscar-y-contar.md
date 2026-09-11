@@ -1,16 +1,16 @@
-# Ejemplo 05 — Buscar y contar con funciones integradas
+# 💡 Ejemplo 05 — Buscar y contar con funciones integradas
 
 **Tema**: `in`, `index`, `count`, `min`, `max`, `sum` · **Resultado de aprendizaje**:
 RA-5 · **Nivel**: intermedio
 
-## Problema
+## 🧩 Problema
 
 Un pequeño inventario guarda las cantidades vendidas de un producto durante seis días.
 Se necesita saber: si hubo algún día con exactamente `0` ventas, en qué posición ocurrió
 la primera vez, cuántos días se repitió esa cantidad, y el total, el mínimo y el máximo
 de ventas del período.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: lista de ventas diarias (`int`).
 - **Proceso**: comprobar pertenencia con `in`; ubicar con `index`; contar repeticiones
@@ -18,14 +18,14 @@ de ventas del período.
 - **Salida**: si hubo un día sin ventas, su posición, cuántos días se repitió, y el
   resumen (mínimo, máximo, total).
 
-## Solución
+## 💡 Solución
 
 1. Usar `in` para comprobar si `0` está en la lista.
 2. Si está, usar `index` para la primera posición y `count` para el total de
    repeticiones.
 3. Usar `min`, `max` y `sum` sobre la lista completa.
 
-## Código
+## 💻 Código
 
 ```python
 # Ventas diarias durante una semana de seis días hábiles
@@ -45,7 +45,7 @@ print("Ventas máximas:", max(ventas))
 print("Total de ventas:", sum(ventas))
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `0 in ventas` recorre la lista y devuelve `True` porque el valor `0` aparece dos
    veces.
@@ -56,7 +56,7 @@ print("Total de ventas:", sum(ventas))
 5. `min(ventas)`, `max(ventas)` y `sum(ventas)` recorren la lista para dar el menor
    valor, el mayor valor y la suma de todos, sin necesidad de escribir un bucle a mano.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 ¿Hubo un día sin ventas?: True

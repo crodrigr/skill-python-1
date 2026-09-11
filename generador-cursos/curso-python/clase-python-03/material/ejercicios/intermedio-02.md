@@ -1,6 +1,6 @@
-# Intermedio 02 — Ingredientes de varias recetas
+# 🟡 Intermedio 02 — Ingredientes de varias recetas
 
-## Problema
+## 🧩 Problema
 
 Un recetario guarda cada receta como una tupla `(nombre_receta, lista_de_ingredientes)`,
 donde `lista_de_ingredientes` es una lista de textos:
@@ -20,23 +20,23 @@ Escribe un programa que:
 4. Muestre todos los ingredientes distintos que se necesitarían para preparar las dos
    recetas (unión), ordenados alfabéticamente con `sorted`.
 
-## Entrada
+## 📥 Entrada
 
 Las dos tuplas `receta_ensalada` y `receta_sandwich` dadas arriba, fijas en el código.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 Desempaquetar cada tupla en dos variables (nombre e ingredientes); construir un
 conjunto a partir de cada lista de ingredientes con `set(...)`; usar `&` para la
 intersección y `|` para la unión; usar `sorted` sobre el resultado de la unión antes de
 mostrarlo.
 
-## Salida
+## 📤 Salida
 
 Los ingredientes en común entre ambas recetas, y la lista ordenada de todos los
 ingredientes distintos necesarios para las dos.
 
-## Restricciones
+## 🚧 Restricciones
 
 - Cada receta debe seguir siendo una tupla `(nombre, lista_de_ingredientes)`; no
   convertirla a otra estructura.
@@ -44,11 +44,11 @@ ingredientes distintos necesarios para las dos.
   ingredientes, no escribiendo los ingredientes comunes "a mano".
 - Los identificadores y comentarios deben estar en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Intermedio
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-8: usar una tupla para representar un registro y desempaquetarla.
 - RA-9: construir conjuntos a partir de listas y aplicar intersección y unión.

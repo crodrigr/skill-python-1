@@ -1,6 +1,6 @@
-# Básico 01 — Lista de compras
+# 🟢 Básico 01 — Lista de compras
 
-## Problema
+## 🧩 Problema
 
 Escribe un programa que:
 
@@ -11,31 +11,31 @@ Escribe un programa que:
 5. Reemplace `"leche"` por `"leche descremada"` usando su posición actual en la lista.
 6. Muestre la lista completa al final, y también cuántos productos quedaron.
 
-## Entrada
+## 📥 Entrada
 
 Ninguna: los productos van fijos en el código.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 Usar `append`, `insert`, `remove` y asignación por índice, en ese orden, mostrando en
 qué posición queda cada producto antes de modificarlo cuando haga falta.
 
-## Salida
+## 📤 Salida
 
 La lista final de productos y la cantidad de productos que contiene.
 
-## Restricciones
+## 🚧 Restricciones
 
 - Usar los métodos y operadores adecuados: `append`, `insert`, `remove`, asignación por
   índice. No usar `pop` ni `del` en este ejercicio.
 - Los identificadores y comentarios deben estar en español.
 - No usar `input`: los datos van fijos en el código.
 
-## Dificultad
+## 📊 Dificultad
 
 Básico
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-2: crear una lista y acceder a sus elementos.
 - RA-3: agregar, eliminar y modificar elementos de una lista con los métodos adecuados.

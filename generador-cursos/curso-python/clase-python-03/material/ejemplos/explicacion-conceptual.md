@@ -1,4 +1,4 @@
-# Explicación conceptual — Clase 03: Estructuras de datos lineales y algoritmos de ordenamiento
+# 📚 Explicación conceptual — Clase 03: Estructuras de datos lineales y algoritmos de ordenamiento
 
 Este documento desarrolla, en orden pedagógico, los ocho bloques temáticos de la clase.
 Cada bloque sigue la secuencia **Contexto → Concepto → Explicación**. El lenguaje es
@@ -11,11 +11,11 @@ los comentarios están en español; solo las palabras reservadas de Python (`if`
 
 ---
 
-## 1. Estructuras de datos lineales
+## 1️⃣ Estructuras de datos lineales
 
 **Resultado de aprendizaje**: RA-1.
 
-### Contexto
+### 🌍 Contexto
 
 Hasta ahora, cada dato de un programa vivía en su propia variable: `nota1`, `nota2`,
 `nota3`… Eso funciona con dos o tres valores, pero se vuelve inmanejable con veinte
@@ -23,7 +23,7 @@ calificaciones, cien productos o mil registros: habría que crear —y nombrar�
 variable por cada uno, y un bucle no podría recorrerlos porque no comparten un nombre en
 común.
 
-### Concepto
+### 🧠 Concepto
 
 Una **estructura de datos** es una forma de agrupar varios valores relacionados bajo un
 solo nombre, de modo que se puedan crear, recorrer y manipular como un conjunto. Una
@@ -39,7 +39,7 @@ Python ofrece varias estructuras lineales; en esta clase se estudian tres:
 | **Tupla** (`tuple`) | Sí | No (inmutable) | Sí |
 | **Conjunto** (`set`) | No | Sí (mutable) | No |
 
-### Explicación
+### 📖 Explicación
 
 Piensa en una lista de asistencia de un curso: los nombres están en un orden (el de
 llegada, o el alfabético) y se puede tachar a alguien que se retira o añadir a quien
@@ -56,17 +56,17 @@ ordenamiento, y cierra con tuplas y conjuntos.
 
 ---
 
-## 2. Creación e indexación de listas
+## 2️⃣ Creación e indexación de listas
 
 **Resultado de aprendizaje**: RA-2.
 
-### Contexto
+### 🌍 Contexto
 
 Ya sabemos que agrupar datos relacionados bajo un solo nombre resuelve el problema de
 las variables sueltas. La lista es la estructura de datos más común de Python para
 lograrlo: hay que aprender a crearla y a acceder a los datos que guarda.
 
-### Concepto
+### 🧠 Concepto
 
 Una **lista** se escribe entre corchetes `[ ]`, con sus elementos separados por comas:
 
@@ -90,7 +90,7 @@ print(frutas[0])   # manzana
 print(frutas[2])   # uva
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Índices negativos.** Python también permite contar desde el final: `-1` es el último
 elemento, `-2` el anteúltimo, y así sucesivamente:
@@ -135,17 +135,17 @@ con certeza que existe.
 
 ---
 
-## 3. Manipulación de listas
+## 3️⃣ Manipulación de listas
 
 **Resultado de aprendizaje**: RA-3.
 
-### Contexto
+### 🌍 Contexto
 
 Una lista casi nunca es fija: llegan nuevos datos que agregar, otros que ya no
 corresponden y hay que quitar, y algunos que hay que corregir. Python ofrece métodos y
 operadores para cada una de esas tres acciones.
 
-### Concepto
+### 🧠 Concepto
 
 **Agregar elementos:**
 
@@ -173,7 +173,7 @@ del tareas[0]                    # elimina por posición, sin devolver nada
 tareas[0] = "comprar pan integral"
 ```
 
-### Explicación
+### 📖 Explicación
 
 La tabla resume qué hace cada operación y si **modifica la lista original** o **devuelve
 una nueva**:
@@ -207,18 +207,18 @@ numeros[0] = 100       # [100, 1, 3]
 
 ---
 
-## 4. Recorrido y transformación
+## 4️⃣ Recorrido y transformación
 
 **Resultado de aprendizaje**: RA-4.
 
-### Contexto
+### 🌍 Contexto
 
 Muchas tareas requieren revisar **todos** los elementos de una lista, uno por uno:
 sumarlos, mostrarlos, o construir una lista nueva a partir de ellos (por ejemplo, solo
 los que cumplen una condición). Para eso se combina la lista con el bucle `for` que ya
 se conoce de la Clase 01.
 
-### Concepto
+### 🧠 Concepto
 
 **Recorrer por elemento** (la forma más común):
 
@@ -242,7 +242,7 @@ if "pera" in frutas:
     print("Sí hay pera")
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Construir una lista nueva a partir de otra.** Un patrón muy frecuente: recorrer una
 lista y, según una condición o una transformación, ir agregando elementos a una lista
@@ -286,18 +286,18 @@ evitar el error de "modifiqué una lista y otra cambió sin que yo lo pidiera".
 
 ---
 
-## 5. Operaciones integradas
+## 5️⃣ Operaciones integradas
 
 **Resultado de aprendizaje**: RA-5.
 
-### Contexto
+### 🌍 Contexto
 
 Ordenar una lista, contar cuántas veces aparece un valor o buscar si algo está presente
 son tareas tan comunes que Python ya las resuelve con métodos y funciones integradas.
 Antes de escribir un algoritmo propio (lo que se hace en el siguiente bloque, con fines
 de comprensión), conviene conocer las herramientas listas para usar.
 
-### Concepto
+### 🧠 Concepto
 
 **Ordenar.** Hay dos formas de ordenar una lista:
 
@@ -337,7 +337,7 @@ Nótese que a `key` se le pasa la función **sin paréntesis** (`obtener_nota`, 
 `obtener_nota()`): `sorted` es quien la llama, una vez por cada elemento, para saber por
 qué valor comparar.
 
-### Explicación
+### 📖 Explicación
 
 **Buscar y contar:**
 
@@ -380,11 +380,11 @@ else:
 
 ---
 
-## 6. Algoritmos de ordenamiento
+## 6️⃣ Algoritmos de ordenamiento
 
 **Resultados de aprendizaje**: RA-6, RA-7.
 
-### Contexto
+### 🌍 Contexto
 
 `sorted()` ordena cualquier lista en una sola línea. Entonces, ¿por qué estudiar cómo
 ordenar "a mano"? Porque entender **cómo** se ordena por dentro desarrolla la capacidad
@@ -392,7 +392,7 @@ de analizar un problema paso a paso, descubre por qué algunas soluciones hacen 
 trabajo que otras, y es la base para reconocer cuándo conviene un algoritmo simple y
 cuándo conviene apoyarse en la herramienta que ya trae el lenguaje.
 
-### Concepto
+### 🧠 Concepto
 
 Un **algoritmo de ordenamiento** es un procedimiento que reorganiza los elementos de una
 lista según un criterio (por ejemplo, de menor a mayor), comparando e intercambiando
@@ -443,7 +443,7 @@ Tomar 4: 4 < 5, 4 > 1 -> insertar entre -> [1, 4, 5]
 Tomar 2: 2 < 5, 2 < 4, 2 > 1 -> insertar entre -> [1, 2, 4, 5]
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Comparación de estrategias:**
 
@@ -473,18 +473,18 @@ lista en partes más pequeñas) requiere más base de la que se tiene hasta ahor
 
 ---
 
-## 7. Tuplas
+## 7️⃣ Tuplas
 
 **Resultado de aprendizaje**: RA-8.
 
-### Contexto
+### 🌍 Contexto
 
 Algunos datos, una vez creados, no deberían cambiar: la fecha de nacimiento de una
 persona, una coordenada `(x, y)`, el mes y el año de un pago ya realizado. Usar una
 lista para esos casos permitiría, por error, modificarlos más adelante en el programa.
 Para esos datos, Python ofrece una estructura pensada para no cambiar: la tupla.
 
-### Concepto
+### 🧠 Concepto
 
 Una **tupla** se escribe entre paréntesis `( )`, con sus elementos separados por comas:
 
@@ -508,7 +508,7 @@ registro_estudiante[1] = 7.0
 # TypeError: 'tuple' object does not support item assignment
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Desempaquetado.** Una tupla se puede "abrir" en varias variables a la vez, una
 asignación muy usada con registros:
@@ -536,11 +536,11 @@ tupla.
 
 ---
 
-## 8. Conjuntos y comparación de estructuras
+## 8️⃣ Conjuntos y comparación de estructuras
 
 **Resultado de aprendizaje**: RA-9.
 
-### Contexto
+### 🌍 Contexto
 
 Algunas tareas no necesitan orden ni permiten repeticiones: la lista de países visitados
 por una persona, las etiquetas únicas de un artículo, los códigos de curso en los que
@@ -548,7 +548,7 @@ un estudiante ya está inscrito. Repetir un valor en esos casos no aporta nada y
 usa una lista, hay que revisarla entera cada vez para evitar duplicados. Para esto
 existe el conjunto.
 
-### Concepto
+### 🧠 Concepto
 
 Un **conjunto** se escribe entre llaves `{ }`, o se construye a partir de otra
 colección con `set(...)`:
@@ -570,7 +570,7 @@ colores.discard("verde")  # se quita si está (no da error si no está)
 print("rojo" in colores)  # True
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Operaciones de conjuntos.** Comparar dos conjuntos es una de las razones principales
 para usarlos:
@@ -605,12 +605,12 @@ crearla? Las respuestas apuntan directamente a lista, tupla o conjunto.
 
 ---
 
-## 8. Conjuntos y comparación de estructuras
+## 8️⃣ Conjuntos y comparación de estructuras
 
 **Resultado de aprendizaje**: RA-9.
 
-### Contexto
+### 🌍 Contexto
 
-### Concepto
+### 🧠 Concepto
 
-### Explicación
+### 📖 Explicación
