@@ -1,9 +1,9 @@
-# Ejemplo 02 — Operadores
+# 💡 Ejemplo 02 — Operadores
 
 **Tema**: operadores aritméticos, de comparación y lógicos · **Resultado de aprendizaje**: RA-4
 · **Nivel**: introductorio (segundo de la secuencia)
 
-## Problema
+## 🧩 Problema
 
 En un juego, un jugador gana puntos por nivel superado. Queremos, a partir de los puntos
 actuales y los puntos de la última partida:
@@ -13,7 +13,7 @@ actuales y los puntos de la última partida:
    puntos le sobran,
 3. indicar si superó el récord de la casa (500 puntos) **y** si jugó la partida de hoy.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: `puntos_previos` (`int`), `puntos_partida` (`int`), `jugo_hoy` (`bool`).
 - **Proceso**: suma (`+`), división entera (`//`), resto (`%`), comparación (`>`) y
@@ -21,13 +21,13 @@ actuales y los puntos de la última partida:
 - **Salida**: total de puntos, niveles y puntos sobrantes, y un valor `True`/`False`
   que indica si batió el récord jugando hoy.
 
-## Solución
+## 💡 Solución
 
 1. Sumar los puntos con `+`.
 2. Usar `//` para los niveles completos y `%` para los puntos sobrantes.
 3. Combinar una comparación (`total > 500`) con `jugo_hoy` mediante `and`.
 
-## Código
+## 💻 Código
 
 ```python
 # Entrada
@@ -48,7 +48,7 @@ print("Puntos sobrantes:", puntos_sobrantes)
 print("¿Batió el récord jugando hoy?:", batio_record_hoy)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `total_puntos = 380 + 260` → `640`.
 2. `niveles_completos = 640 // 100` → `6` (la división entera descarta los decimales).
@@ -57,7 +57,7 @@ print("¿Batió el récord jugando hoy?:", batio_record_hoy)
    True` → `True`.
 5. Los `print` muestran cada resultado. El último muestra un valor de tipo `bool`.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Total de puntos: 640

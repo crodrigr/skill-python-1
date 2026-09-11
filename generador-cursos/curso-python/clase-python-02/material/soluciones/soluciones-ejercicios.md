@@ -1,4 +1,4 @@
-# Soluciones de los ejercicios — Clase 02: Funciones
+# 🔑 Soluciones de los ejercicios — Clase 02: Funciones
 
 > **Material docente.** No entregar al estudiantado antes de la puesta en común. Todo el
 > código se ejecuta sin errores con Python 3.10 o superior y su salida coincide con el
@@ -8,9 +8,9 @@ Cada solución incluye el código, una explicación breve y el resultado esperad
 
 ---
 
-## Básico 01 — Definir y llamar una función
+## 🟢 Básico 01 — Definir y llamar una función
 
-### Código
+### 💻 Código
 
 ```python
 def mostrar_menu():
@@ -24,12 +24,12 @@ print("-----")
 mostrar_menu()
 ```
 
-### Explicación
+### 📖 Explicación
 
 - `mostrar_menu` no tiene parámetros ni `return`: solo produce un efecto (imprimir).
 - El texto del menú se escribe una sola vez y las dos llamadas lo reutilizan.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 1. Ver saldo
@@ -43,9 +43,9 @@ mostrar_menu()
 
 ---
 
-## Básico 02 — Función con parámetro y retorno
+## 🟢 Básico 02 — Función con parámetro y retorno
 
-### Código
+### 💻 Código
 
 ```python
 def doble(numero):
@@ -56,12 +56,12 @@ print(doble(4))
 print(doble(25))
 ```
 
-### Explicación
+### 📖 Explicación
 
 - `numero` es un parámetro; `4` y `25` son los argumentos.
 - La función **devuelve** el resultado; es el programa principal quien lo imprime.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 8
@@ -70,9 +70,9 @@ print(doble(25))
 
 ---
 
-## Intermedio 01 — Función con decisión
+## 🟡 Intermedio 01 — Función con decisión
 
-### Código
+### 💻 Código
 
 ```python
 def es_aprobado(nota, minimo):
@@ -85,13 +85,13 @@ print(es_aprobado(65, 60))
 print(es_aprobado(40, 60))
 ```
 
-### Explicación
+### 📖 Explicación
 
 - Si `nota >= minimo`, el primer `return` termina la función y devuelve `"Aprobado"`.
 - Si no, la ejecución llega al segundo `return` y devuelve `"Reprobado"` (no hace falta
   `else`).
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Aprobado
@@ -100,9 +100,9 @@ Reprobado
 
 ---
 
-## Intermedio 02 — Función con varias condiciones
+## 🟡 Intermedio 02 — Función con varias condiciones
 
-### Código
+### 💻 Código
 
 ```python
 def clasificar_imc(peso, altura):
@@ -119,12 +119,12 @@ print(clasificar_imc(50, 1.70))
 print(clasificar_imc(80, 1.75))
 ```
 
-### Explicación
+### 📖 Explicación
 
 - El IMC se calcula en una variable local y solo se usa para decidir la categoría.
 - `50 / (1.70 * 1.70) ≈ 17.30` → `"bajo"`; `80 / (1.75 * 1.75) ≈ 26.12` → `"alto"`.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 bajo
@@ -133,9 +133,9 @@ alto
 
 ---
 
-## Avanzado 01 — Refactorizar con funciones
+## 🔴 Avanzado 01 — Refactorizar con funciones
 
-### Código (versión refactorizada)
+### 💻 Código (versión refactorizada)
 
 ```python
 def total_con_iva(neto):
@@ -152,7 +152,7 @@ mostrar_boleta("Luis", 3000 + 1500)
 mostrar_boleta("Eva", 800 + 800 + 800 + 800)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - El cálculo del IVA, repetido 3 veces en el código de partida, queda en
   `total_con_iva`.
@@ -161,7 +161,7 @@ mostrar_boleta("Eva", 800 + 800 + 800 + 800)
 - La salida es idéntica a la del código de partida: refactorizar no cambia el
   comportamiento.
 
-### Verificación (código de partida vs refactorizado)
+### 🔎 Verificación (código de partida vs refactorizado)
 
 Ambas versiones imprimen:
 
@@ -179,9 +179,9 @@ Eva: 3200 → 608 → 3808.)
 
 ---
 
-## Avanzado 02 — Combinar funciones y un bucle
+## 🔴 Avanzado 02 — Combinar funciones y un bucle
 
-### Código
+### 💻 Código
 
 ```python
 def factorial(n):
@@ -199,12 +199,12 @@ def mostrar_factoriales(desde, hasta):
 mostrar_factoriales(1, 5)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - `factorial(1)`: `range(2, 2)` está vacío, el bucle no se ejecuta y devuelve `1`.
 - `mostrar_factoriales` no calcula nada: en cada vuelta **llama** a `factorial`.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 1 -> 1
@@ -216,9 +216,9 @@ mostrar_factoriales(1, 5)
 
 ---
 
-## Desafío 01 — Puntaje de una partida
+## 🏆 Desafío 01 — Puntaje de una partida
 
-### Código
+### 💻 Código
 
 ```python
 def puntos_por_nivel(nivel):
@@ -256,13 +256,13 @@ def mostrar_reporte(nombre, nivel, vidas, errores):
 mostrar_reporte("Ana", 8, 3, 4)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - Cada fórmula (`* 100`, `* 50`, `* 25`) aparece **una sola vez**, en su función.
 - `puntaje_final` combina los resultados de tres funciones; `mostrar_reporte` combina
   `puntaje_final` y `categoria`.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Jugador: Ana
@@ -270,7 +270,7 @@ Puntaje: 850
 Categoría: Plata
 ```
 
-### Verificación con los casos de prueba
+### 🔎 Verificación con los casos de prueba
 
 | `nivel` | `vidas` | `errores` | `puntaje_final` | `categoria` |
 |---------|---------|-----------|-----------------|-------------|
@@ -281,9 +281,9 @@ Categoría: Plata
 
 ---
 
-## Taller 01 — Calculadora de cuenta con propina y división por comensales
+## 🛠️ Taller 01 — Calculadora de cuenta con propina y división por comensales
 
-### Código
+### 💻 Código
 
 ```python
 def calcular_propina(monto, porcentaje):
@@ -318,7 +318,7 @@ def main():
 main()
 ```
 
-### Explicación
+### 📖 Explicación
 
 - Cuatro funciones de una sola responsabilidad; `main()` solo coordina llamadas.
 - `formatear_pesos` es la refactorización del formato `f"${valor:.2f}"`, que aparecía
@@ -326,7 +326,7 @@ main()
 - Los datos entran por parámetros y salen por `return`; no hay variables globales
   compartidas entre funciones.
 
-### Resultado esperado (caso `100.00`, `10`, `4`)
+### ✅ Resultado esperado (caso `100.00`, `10`, `4`)
 
 ```text
 Propina: $10.00
@@ -334,7 +334,7 @@ Total: $110.00
 Cada persona paga: $27.50
 ```
 
-### Verificación con los casos de prueba
+### 🔎 Verificación con los casos de prueba
 
 | `monto` | `porcentaje` | `comensales` | Propina | Total | Por persona |
 |---------|--------------|--------------|---------|-------|-------------|

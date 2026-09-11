@@ -5,14 +5,14 @@ Regla: una sola idea clave por diapositiva; primero el apoyo visual, después po
 Total: 23 diapositivas (rango permitido 15-25).
 -->
 
-# Clase 02
+# 📘 Clase 02
 ## Funciones en Python
 
 Curso: Introducción a la Programación con Python · Duración: 3 horas
 
 ---
 
-## Qué vas a lograr hoy
+## 🎯 Qué vas a lograr hoy
 
 - Explicar qué es una función y para qué sirve.
 - Definir funciones, llamarlas y pasarles datos con parámetros.
@@ -21,7 +21,7 @@ Curso: Introducción a la Programación con Python · Duración: 3 horas
 
 ---
 
-## El problema: código repetido
+## 📋 El problema: código repetido
 
 ```python
 print("Promedio de Ana:", (60 + 70 + 80) / 3)
@@ -33,7 +33,7 @@ El mismo cálculo, escrito tres veces. Si cambia, hay que corregirlo en tres sit
 
 ---
 
-## ¿Qué es una función?
+## 🧩 ¿Qué es una función?
 
 ```python
 def promedio(nota1, nota2, nota3):
@@ -45,7 +45,7 @@ usa muchas.
 
 ---
 
-## Encapsular y abstraer
+## 📦 Encapsular y abstraer
 
 ```text
 promedio(60, 70, 80)   →   70.0
@@ -56,7 +56,7 @@ promedio(60, 70, 80)   →   70.0
 
 ---
 
-## Definir con `def`
+## ✏️ Definir con `def`
 
 ```python
 def mostrar_bienvenida():
@@ -68,7 +68,7 @@ def mostrar_bienvenida():
 
 ---
 
-## Llamar a la función
+## 📞 Llamar a la función
 
 ```python
 mostrar_bienvenida()
@@ -79,7 +79,7 @@ falta.
 
 ---
 
-## Flujo de ejecución
+## 🔄 Flujo de ejecución
 
 ```text
 mostrar_bienvenida()  ─┐  (1) salta al cuerpo
@@ -90,7 +90,7 @@ print("Fin")  ←─────────┘  (3) vuelve y sigue
 
 ---
 
-## Definir antes de llamar
+## ⏫ Definir antes de llamar
 
 ```python
 saludar()          # error: aún no existe
@@ -102,7 +102,7 @@ La definición debe aparecer **antes** de la llamada.
 
 ---
 
-## Parámetros y argumentos
+## 🎛️ Parámetros y argumentos
 
 ```python
 def area(base, altura):     # parámetros
@@ -115,7 +115,7 @@ Parámetro: en la definición. Argumento: el valor en la llamada.
 
 ---
 
-## Posicionales y por nombre
+## 🎛️ Posicionales y por nombre
 
 ```python
 area(3, 4)
@@ -126,7 +126,7 @@ Por posición, el orden importa. Por nombre, no: cada valor dice a qué parámet
 
 ---
 
-## Valores por defecto
+## 🎛️ Valores por defecto
 
 ```python
 def precio_con_impuesto(precio, iva=0.19):
@@ -138,7 +138,7 @@ precio_con_impuesto(1000, 0.10)  # iva = 0.10
 
 ---
 
-## `return`: entregar un valor
+## ↩️ `return`: entregar un valor
 
 ```python
 def area(base, altura):
@@ -151,7 +151,7 @@ total = area(3, 4) + area(10, 2)
 
 ---
 
-## `return` frente a `print`
+## ↩️ `return` frente a `print`
 
 | | `print(...)` | `return ...` |
 |---|---|---|
@@ -160,7 +160,7 @@ total = area(3, 4) + area(10, 2)
 
 ---
 
-## Sin `return` → `None`
+## 🔳 Sin `return` → `None`
 
 ```python
 def area_triangulo(base, altura):
@@ -173,7 +173,7 @@ Falta `return resultado`.
 
 ---
 
-## Alcance: variables locales
+## 🔒 Alcance: variables locales
 
 ```python
 def calcular():
@@ -187,7 +187,7 @@ Lo que se crea dentro de la función no vive fuera. Para sacarlo: `return`.
 
 ---
 
-## Refactorizar: antes
+## 🔧 Refactorizar: antes
 
 ```python
 print("Ana:", (60 + 70 + 80) / 3)
@@ -199,7 +199,7 @@ Cálculo repetido tres veces.
 
 ---
 
-## Refactorizar: después
+## 🔧 Refactorizar: después
 
 ```python
 def promedio(a, b, c):
@@ -213,7 +213,7 @@ Misma salida, un solo lugar que mantener.
 
 ---
 
-## Buenas prácticas
+## ✨ Buenas prácticas
 
 - Nombre con **verbo**: `calcular_total`, `mostrar_boleta`.
 - **Una responsabilidad** por función.
@@ -221,7 +221,7 @@ Misma salida, un solo lugar que mantener.
 
 ---
 
-## Componer funciones
+## 🧬 Componer funciones
 
 ```python
 def total_a_pagar(precio, cantidad, dcto):
@@ -232,7 +232,7 @@ Una función usa el resultado de otra; un bloque principal las coordina.
 
 ---
 
-## Actividad práctica
+## 🛠️ Actividad práctica
 
 **Taller 01 — Calculadora de cuenta con propina**
 
@@ -241,7 +241,7 @@ en `main()` y refactorizar el formato repetido.
 
 ---
 
-## Resumen
+## 📌 Resumen
 
 - Función = tarea con nombre, reutilizable.
 - Datos entran por **parámetros**; resultados salen con **`return`**.
@@ -250,7 +250,7 @@ en `main()` y refactorizar el formato repetido.
 
 ---
 
-## Evaluación
+## 📝 Evaluación
 
 **Quiz 02** — 10 preguntas:
 

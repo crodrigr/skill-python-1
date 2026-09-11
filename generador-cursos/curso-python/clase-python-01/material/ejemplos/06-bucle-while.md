@@ -1,17 +1,17 @@
-# Ejemplo 06 — Bucle `while`
+# 💡 Ejemplo 06 — Bucle `while`
 
 **Tema**: repetición controlada por una condición; combinación de bucle, condicional y
 operadores; riesgo de bucle infinito · **Resultados de aprendizaje**: RA-6, RA-7, RA-8 ·
 **Nivel**: avanzado (sexto y último de la secuencia)
 
-## Problema
+## 🧩 Problema
 
 Un juego de dardos suma los puntos de cada lanzamiento. El jugador sigue lanzando
 **mientras** su puntaje total sea menor a 50. Cada lanzamiento suma 7 puntos. El
 programa debe mostrar el puntaje después de cada lanzamiento, avisar cuando un
 lanzamiento deja el total en 50 o más, y al final informar cuántos lanzamientos hizo.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: puntos por lanzamiento (`7`, fijo) y meta (`50`, fijo).
 - **Proceso**: repetir **hasta** llegar a la meta. No se sabe de antemano cuántos
@@ -20,14 +20,14 @@ lanzamiento deja el total en 50 o más, y al final informar cuántos lanzamiento
 - **Salida**: el puntaje tras cada lanzamiento, un aviso al alcanzar la meta y el total
   de lanzamientos.
 
-## Solución
+## 💡 Solución
 
 Dos variables de control: `puntaje` (acumulador) y `lanzamientos` (contador). La
 condición del `while` es `puntaje < 50`. Dentro del bucle **siempre** sumamos puntos y
 aumentamos el contador: eso garantiza que la condición terminará siendo falsa y el bucle
 terminará.
 
-## Código
+## 💻 Código
 
 ```python
 puntos_por_lanzamiento = 7
@@ -47,7 +47,7 @@ while puntaje < meta:
 print("Total de lanzamientos:", lanzamientos)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `puntaje = 0`, `lanzamientos = 0`.
 2. Se evalúa la condición `puntaje < meta` (`0 < 50` → `True`) y se entra al bucle.
@@ -61,7 +61,7 @@ print("Total de lanzamientos:", lanzamientos)
 7. La línea `lanzamientos = lanzamientos + 1` es la que evita el **bucle infinito**: sin
    modificar `puntaje` dentro del bucle, la condición sería siempre verdadera.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Lanzamiento 1 - puntaje: 7

@@ -1,15 +1,15 @@
-# Ejemplo 03 — De algoritmo a programa
+# 💡 Ejemplo 03 — De algoritmo a programa
 
 **Tema**: análisis de un problema, algoritmo, pseudocódigo y programa · **Resultados de
 aprendizaje**: RA-3, RA-9 · **Nivel**: introductorio (tercero de la secuencia)
 
-## Problema
+## 🧩 Problema
 
 Una panadería vende pan por kilo. El cliente indica cuántos kilos quiere y con cuánto
 dinero paga. El programa debe mostrar el precio total y el vuelto (cambio) que recibe.
 El precio del kilo es de 2.000 pesos.
 
-## Análisis
+## 🔍 Análisis
 
 | Pregunta | Respuesta |
 |----------|-----------|
@@ -17,9 +17,9 @@ El precio del kilo es de 2.000 pesos.
 | Proceso | `total = kilos * 2000`; `vuelto = paga_con - total` |
 | Salida | el total y el vuelto |
 
-## Solución
+## 💡 Solución
 
-### Algoritmo (pasos)
+### 🧠 Algoritmo (pasos)
 
 1. Preguntar cuántos kilos quiere el cliente.
 2. Preguntar con cuánto dinero paga.
@@ -27,7 +27,7 @@ El precio del kilo es de 2.000 pesos.
 4. Calcular el vuelto: dinero con que paga menos el total.
 5. Mostrar el total y el vuelto.
 
-### Pseudocódigo
+### 📃 Pseudocódigo
 
 ```text
 PRECIO_KILO ← 2000
@@ -39,7 +39,7 @@ Mostrar total
 Mostrar vuelto
 ```
 
-## Código
+## 💻 Código
 
 ```python
 # Cada paso del pseudocódigo se traduce a una instrucción de Python
@@ -59,7 +59,7 @@ print("Total a pagar:", total)
 print("Vuelto:", vuelto)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `precio_kilo = 2000` guarda el dato constante del problema.
 2. `input(...)` muestra la pregunta y espera a que el usuario escriba un valor; devuelve
@@ -68,7 +68,7 @@ print("Vuelto:", vuelto)
 4. `vuelto = paga_con - total`: con `paga_con = 5000` sería `5000 - 3000.0` → `2000.0`.
 5. Los `print` muestran los dos resultados.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 Prueba con la entrada `1.5` (kilos) y `5000` (paga con):
 

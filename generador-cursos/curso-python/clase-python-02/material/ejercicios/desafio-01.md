@@ -1,6 +1,6 @@
-# Desafío 01 — Puntaje de una partida
+# 🏆 Desafío 01 — Puntaje de una partida
 
-## Problema
+## 🧩 Problema
 
 Un videojuego calcula el **puntaje final** de una partida así:
 
@@ -20,7 +20,7 @@ sus errores, muestre un reporte con el nombre, el puntaje final y la categoría.
 Resuélvelo en cuatro pasos: **analizar**, **descomponer en funciones**, **escribir el
 programa** y **probarlo** con los casos de prueba.
 
-## Entrada
+## 📥 Entrada
 
 - `nombre` (`str`).
 - `nivel` (`int`, ≥ 0).
@@ -29,7 +29,7 @@ programa** y **probarlo** con los casos de prueba.
 
 Los valores van fijos en el código.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 1. **Analizar**: entrada, pasos intermedios y salida.
 2. **Descomponer**: define una función por tarea. Se sugiere:
@@ -43,7 +43,7 @@ Los valores van fijos en el código.
    `mostrar_reporte` **llaman** a las demás, sin repetir cálculos.
 4. **Probar** con la tabla de casos.
 
-## Salida
+## 📤 Salida
 
 Para `mostrar_reporte("Ana", 8, 3, 4)`:
 
@@ -53,14 +53,14 @@ Puntaje: 850
 Categoría: Plata
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - Al menos **cuatro** funciones, y `puntaje_final` debe combinar los resultados de otras.
 - Ninguna fórmula (`* 100`, `* 50`, `* 25`) debe aparecer más de una vez.
 - Cada función tiene una sola responsabilidad y un nombre con verbo o predicado claro.
 - Identificadores y comentarios en español.
 
-## Casos de prueba
+## 🧪 Casos de prueba
 
 | `nivel` | `vidas` | `errores` | Puntaje | Categoría |
 |---------|---------|-----------|---------|-----------|
@@ -69,7 +69,7 @@ Categoría: Plata
 | `2` | `0` | `6` | `50` | `Bronce` |
 | `10` | `0` | `0` | `1000` | `Oro` |
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-6: refactorizar / evitar repetición usando funciones.
 - RA-7: descomponer un problema en varias funciones y combinarlas.

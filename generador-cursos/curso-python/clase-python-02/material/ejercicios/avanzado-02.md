@@ -1,6 +1,6 @@
-# Avanzado 02 — Combinar funciones y un bucle
+# 🔴 Avanzado 02 — Combinar funciones y un bucle
 
-## Problema
+## 🧩 Problema
 
 Escribe dos funciones:
 
@@ -12,11 +12,11 @@ Escribe dos funciones:
 
 En el programa principal, llama a `mostrar_factoriales(1, 5)`.
 
-## Entrada
+## 📥 Entrada
 
 - `desde` y `hasta` (`int`, con `desde <= hasta`), pasados en la llamada.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 1. En `factorial(n)`, partir de `resultado = 1` y multiplicarlo por cada entero de `2`
    a `n` con un bucle `for`; devolver `resultado`.
@@ -24,7 +24,7 @@ En el programa principal, llama a `mostrar_factoriales(1, 5)`.
    vuelta, imprimir `numero`, `"->"` y `factorial(numero)`.
 3. Llamar a `mostrar_factoriales(1, 5)`.
 
-## Salida
+## 📤 Salida
 
 ```text
 1 -> 1
@@ -34,17 +34,17 @@ En el programa principal, llama a `mostrar_factoriales(1, 5)`.
 5 -> 120
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - `factorial` calcula con un bucle (no con una fórmula cerrada) y usa `return`.
 - `mostrar_factoriales` **llama** a `factorial`; no repite el cálculo.
 - Identificadores y comentarios en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Avanzado
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-5: escribir funciones reutilizables y modulares.
 - RA-7: descomponer un problema en varias funciones y combinarlas.

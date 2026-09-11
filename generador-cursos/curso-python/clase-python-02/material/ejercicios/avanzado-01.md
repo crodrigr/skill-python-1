@@ -1,6 +1,6 @@
-# Avanzado 01 — Refactorizar con funciones
+# 🔴 Avanzado 01 — Refactorizar con funciones
 
-## Problema
+## 🧩 Problema
 
 El siguiente programa imprime la boleta de tres clientes. Funciona, pero el cálculo del
 total con IVA (`neto + neto * 19 // 100`) está repetido tres veces y la estructura
@@ -8,7 +8,7 @@ total con IVA (`neto + neto * 19 // 100`) está repetido tres veces y la estruct
 
 **Refactoriza** el programa usando funciones, **sin cambiar su salida**.
 
-## Código de partida
+## 💻 Código de partida
 
 ```python
 print("Cliente: Ana")
@@ -27,11 +27,11 @@ total_eva = neto_eva + neto_eva * 19 // 100
 print("Total:", total_eva)
 ```
 
-## Entrada
+## 📥 Entrada
 
 - Los montos netos de cada cliente, ya presentes en el código de partida.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 1. Detectar el fragmento repetido: el cálculo del total con IVA.
 2. Crear `total_con_iva(neto)` que **devuelva** `neto + neto * 19 // 100`.
@@ -41,7 +41,7 @@ print("Total:", total_eva)
 5. Reemplazar el código de partida por tres llamadas a `mostrar_boleta`.
 6. Ejecutar y comprobar que la salida es **idéntica** a la del código de partida.
 
-## Salida
+## 📤 Salida
 
 ```text
 Cliente: Ana
@@ -52,18 +52,18 @@ Cliente: Eva
 Total: 3808
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - La salida debe ser exactamente la misma que la del código de partida.
 - No debe quedar ningún cálculo de IVA repetido: debe estar en una sola función.
 - `total_con_iva` usa `return`; `mostrar_boleta` usa `print`.
 - Identificadores y comentarios en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Avanzado
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-5: escribir funciones reutilizables y modulares.
 - RA-6: refactorizar código repetido extrayéndolo a funciones.

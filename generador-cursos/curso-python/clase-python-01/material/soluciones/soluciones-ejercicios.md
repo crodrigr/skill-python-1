@@ -1,4 +1,4 @@
-# Soluciones de los ejercicios — Clase 01
+# 🔑 Soluciones de los ejercicios — Clase 01
 
 > **Material docente.** No entregar al estudiantado antes de la puesta en común. Todo el
 > código se ejecuta sin errores con Python 3.10 o superior.
@@ -8,9 +8,9 @@ verificado ejecutando el programa.
 
 ---
 
-## Básico 01 — Datos de una persona
+## 🟢 Básico 01 — Datos de una persona
 
-### Parte A (respuesta esperada)
+### 🧩 Parte A (respuesta esperada)
 
 Se acepta cualquier respuesta que mencione **dos** ideas correctas, por ejemplo:
 
@@ -19,7 +19,7 @@ Se acepta cualquier respuesta que mencione **dos** ideas correctas, por ejemplo:
 - Python es **interpretado**: el programa se ejecuta línea por línea tal como está, sin
   un paso previo de compilación.
 
-### Parte B — Código
+### 💻 Parte B — Código
 
 ```python
 # Datos de la persona (fijos en el código)
@@ -33,12 +33,12 @@ print("Edad:", edad)
 print("Ciudad:", ciudad)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - `nombre` y `ciudad` son de tipo `str`; `edad` es `int`.
 - Cada `print` combina un texto fijo con el valor de una variable.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Nombre: Camila
@@ -48,9 +48,9 @@ Ciudad: Valparaíso
 
 ---
 
-## Básico 02 — Conversión de temperatura
+## 🟢 Básico 02 — Conversión de temperatura
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -64,14 +64,14 @@ print(celsius, "°C equivalen a", fahrenheit, "°F")
 print("¿Está bajo cero?:", celsius < 0)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - En `celsius * 9 / 5 + 32`, Python evalúa `celsius * 9` → `225.0`, luego `/ 5` → `45.0`
   y por último `+ 32` → `77.0`. No hacen falta paréntesis.
 - `celsius < 0` es una expresión de comparación: produce directamente `False`, sin
   necesidad de un `if`.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 25.0 °C equivalen a 77.0 °F
@@ -80,9 +80,9 @@ print("¿Está bajo cero?:", celsius < 0)
 
 ---
 
-## Intermedio 01 — ¿Mayor de edad?
+## 🟡 Intermedio 01 — ¿Mayor de edad?
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -100,7 +100,7 @@ else:
 print(mensaje)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - Se comprueba primero la edad. Si es menor de 18, no importa si aceptó: el mensaje es
   el de edad.
@@ -108,7 +108,7 @@ print(mensaje)
   aceptados.
 - El `else` cubre el caso restante: mayor de edad pero sin aceptar.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Debe aceptar los términos
@@ -119,9 +119,9 @@ Otras pruebas: `edad = 16` → `Debe ser mayor de edad`; `edad = 25`,
 
 ---
 
-## Intermedio 02 — Descuento por monto
+## 🟡 Intermedio 02 — Descuento por monto
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -143,13 +143,13 @@ print("Descuento:", descuento)
 print("Total a pagar:", total_a_pagar)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - El orden de los `elif` permite comprobar solo el límite superior de cada tramo.
 - `monto * porcentaje_descuento / 100`: con `monto = 50000` y `porcentaje = 20`, da
   `50000 * 20` → `1000000`, luego `/ 100` → `10000.0`.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Descuento: 10000.0
@@ -158,9 +158,9 @@ Total a pagar: 40000.0
 
 ---
 
-## Avanzado 01 — Suma de los primeros números
+## 🔴 Avanzado 01 — Suma de los primeros números
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -181,14 +181,14 @@ print("Suma:", suma)
 print("Cantidad de pares:", cantidad_pares)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - `range(1, n + 1)` recorre `1, 2, 3, 4, 5`.
 - `suma` acumula: `0 → 1 → 3 → 6 → 10 → 15`.
 - El `if numero % 2 == 0` cuenta los pares: el 2 y el 4 → `cantidad_pares = 2`.
 - Se usa `for` porque el número de repeticiones (`n`) se conoce de antemano.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Suma: 15
@@ -197,9 +197,9 @@ Cantidad de pares: 2
 
 ---
 
-## Avanzado 02 — Adivina el número
+## 🔴 Avanzado 02 — Adivina el número
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -233,7 +233,7 @@ else:
     print("No se adivinó el número")
 ```
 
-### Explicación
+### 📖 Explicación
 
 - La condición del `while` combina dos ideas con `and`: quedan valores por probar
   (`intento <= maximo_valor`) **y** todavía no se acertó (`not adivinado`).
@@ -242,7 +242,7 @@ else:
 - `intento = intento + 2` garantiza que el bucle avanza y termina.
 - Se usa `while` porque el final depende de una condición evaluada en cada vuelta.
 
-### Resultado esperado
+### ✅ Resultado esperado
 
 ```text
 Intento 1 (valor 1): muy bajo
@@ -254,9 +254,9 @@ Adivinado en 4 intentos
 
 ---
 
-## Desafío 01 — Cajero de billetes
+## 🏆 Desafío 01 — Cajero de billetes
 
-### Código
+### 💻 Código
 
 ```python
 # Entrada
@@ -277,7 +277,7 @@ for valor_billete in (20000, 10000, 5000, 2000, 1000):
 print("Total de billetes:", total_billetes)
 ```
 
-### Explicación (análisis → algoritmo → programa)
+### 🧭 Explicación (análisis → algoritmo → programa)
 
 - **Análisis**: entrada = `monto`; proceso = repartir en billetes de mayor a menor;
   salida = cantidad por billete y total.
@@ -288,7 +288,7 @@ print("Total de billetes:", total_billetes)
 - `str(valor_billete) + ":"` une el número con los dos puntos para que la salida quede
   `Billetes de 20000: 2` sin espacio antes de los dos puntos.
 
-### Resultado esperado (los cuatro casos de prueba)
+### ✅ Resultado esperado (los cuatro casos de prueba)
 
 ```text
 # monto = 47000
@@ -315,9 +315,9 @@ Total de billetes: 5
 
 ---
 
-## Taller 01 — Calculadora de propina
+## 🛠️ Taller 01 — Calculadora de propina
 
-### Código (`propina.py`)
+### 💻 Código (`propina.py`)
 
 ```python
 # Entrada
@@ -348,7 +348,7 @@ for persona in range(1, numero_personas + 1):
     print("Persona", persona, "paga:", parte)
 ```
 
-### Explicación
+### 📖 Explicación
 
 - **`if` / `elif` / `else`**: hay tres tramos de calificación → una decisión con tres
   caminos.
@@ -357,7 +357,7 @@ for persona in range(1, numero_personas + 1):
 - El bucle recorre exactamente `numero_personas` vueltas y termina; no hay riesgo de
   repetición infinita.
 
-### Resultado esperado (los tres casos de prueba)
+### ✅ Resultado esperado (los tres casos de prueba)
 
 ```text
 # 30000, calificación 5, 3 personas

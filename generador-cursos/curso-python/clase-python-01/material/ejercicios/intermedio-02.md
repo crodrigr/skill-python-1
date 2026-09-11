@@ -1,6 +1,6 @@
-# Intermedio 02 — Descuento por monto
+# 🟡 Intermedio 02 — Descuento por monto
 
-## Problema
+## 🧩 Problema
 
 Una tienda aplica un descuento sobre el total de la compra según el monto:
 
@@ -11,17 +11,17 @@ Una tienda aplica un descuento sobre el total de la compra según el monto:
 Escribe un programa que, a partir del monto de la compra, calcule el descuento aplicado
 (en pesos) y el total a pagar.
 
-## Entrada
+## 📥 Entrada
 
 - `monto` (`int`), fijado en el código.
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 1. Determinar el porcentaje de descuento con `if` / `elif` / `else`.
 2. Calcular el descuento en pesos: `monto * porcentaje / 100`.
 3. Calcular el total a pagar: `monto - descuento`.
 
-## Salida
+## 📤 Salida
 
 Dos líneas. Ejemplo, para `monto = 50000`:
 
@@ -30,18 +30,18 @@ Descuento: 10000.0
 Total a pagar: 40000.0
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - Usa operadores aritméticos y de comparación.
 - El porcentaje de descuento debe quedar en una variable antes de calcular el monto del
   descuento.
 - Identificadores y comentarios en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Intermedio
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-4: usar operadores aritméticos y de comparación respetando la precedencia.
 - RA-5: usar estructuras condicionales para tomar decisiones.

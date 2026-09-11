@@ -1,4 +1,4 @@
-# Quiz 02 — Funciones en Python
+# ❓ Quiz 02 — Funciones en Python
 
 **Instrucciones**: 10 preguntas. En las de selección múltiple e identificación de
 resultado, marca **una** opción. En las de análisis y de corrección, escribe tu
@@ -9,7 +9,7 @@ respuesta con una breve justificación. El problema final se entrega como códig
 
 ---
 
-## 1. [Selección múltiple]
+## 1️⃣ [🔘 Selección múltiple]
 
 ¿Cuál es el propósito principal de escribir una función?
 
@@ -22,7 +22,7 @@ _RA: RA-1_
 
 ---
 
-## 2. [Selección múltiple]
+## 2️⃣ [🔘 Selección múltiple]
 
 Dado el siguiente código, ¿qué línea **llama** a la función?
 
@@ -42,7 +42,7 @@ _RA: RA-2_
 
 ---
 
-## 3. [Selección múltiple]
+## 3️⃣ [🔘 Selección múltiple]
 
 En `def cobrar(monto, propina): ...` y la llamada `cobrar(1000, 150)`, ¿qué son `monto`
 y `propina`?
@@ -56,7 +56,7 @@ _RA: RA-3_
 
 ---
 
-## 4. [Selección múltiple]
+## 4️⃣ [🔘 Selección múltiple]
 
 ¿Cuál es la diferencia entre `return` y `print` dentro de una función?
 
@@ -70,7 +70,7 @@ _RA: RA-4_
 
 ---
 
-## 5. [Selección múltiple]
+## 5️⃣ [🔘 Selección múltiple]
 
 Dada esta función:
 
@@ -90,7 +90,7 @@ _RA: RA-3_
 
 ---
 
-## 6. [Análisis de código]
+## 6️⃣ [🔬 Análisis de código]
 
 Indica **qué imprime** este programa y explica **en qué orden** se ejecutan las
 funciones.
@@ -109,7 +109,7 @@ _RA: RA-4, RA-7_
 
 ---
 
-## 7. [Análisis de código]
+## 7️⃣ [🔬 Análisis de código]
 
 Indica **qué imprime** este programa y explica por qué la función no llega a evaluar
 todos los `if`.
@@ -129,7 +129,7 @@ _RA: RA-4_
 
 ---
 
-## 8. [Identificación de resultado]
+## 8️⃣ [🎯 Identificación de resultado]
 
 ¿Qué imprime este programa?
 
@@ -150,7 +150,7 @@ _RA: RA-3_
 
 ---
 
-## 9. [Corrección de errores]
+## 9️⃣ [🐛 Corrección de errores]
 
 Este programa debería imprimir `Área: 20.0`, pero imprime `Área: None`. Identifica el
 error y reescribe el código corregido.
@@ -166,7 +166,7 @@ _RA: RA-2, RA-4_
 
 ---
 
-## 10. [Problema breve de programación]
+## 🔟 [💻 Problema breve de programación]
 
 El siguiente programa repite el mismo cálculo tres veces:
 

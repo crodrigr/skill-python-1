@@ -1,4 +1,4 @@
-# Explicación conceptual — Clase 01
+# 📚 Explicación conceptual — Clase 01
 
 Este documento desarrolla, en orden pedagógico, los seis bloques temáticos de la clase.
 Cada bloque sigue la secuencia **Contexto → Concepto → Explicación**. El lenguaje es
@@ -10,18 +10,18 @@ porque forman parte del lenguaje.
 
 ---
 
-## 1. Python
+## 1️⃣ Python
 
 **Resultado de aprendizaje**: RA-1.
 
-### Contexto
+### 🌍 Contexto
 
 Una computadora solo sabe seguir instrucciones muy precisas. Para decirle qué hacer
 necesitamos un **lenguaje de programación**: un conjunto de palabras y reglas que la
 persona escribe y la máquina ejecuta. Hay muchos lenguajes; en esta clase usamos
 **Python**.
 
-### Concepto
+### 🧠 Concepto
 
 **Python** es un lenguaje de programación de propósito general, conocido por tener una
 sintaxis **clara y legible**: el código se parece bastante a una descripción en
@@ -31,7 +31,7 @@ Python es un lenguaje **interpretado**: existe un programa, llamado *intérprete
 lee nuestro archivo línea por línea y lo ejecuta al momento. No hace falta un paso
 previo de "compilación" para probar un programa.
 
-### Explicación
+### 📖 Explicación
 
 Comparemos una misma idea —mostrar un saludo en pantalla— escrita como instrucción para
 una persona y como programa Python:
@@ -71,17 +71,17 @@ Cómo se ejecuta un programa:
 
 ---
 
-## 2. Variables
+## 2️⃣ Variables
 
 **Resultado de aprendizaje**: RA-2.
 
-### Contexto
+### 🌍 Contexto
 
 Los programas trabajan con datos: un nombre, una edad, un precio, un resultado. Para
 usar un dato más de una vez —o para calcular con él— necesitamos **guardarlo** y
 **ponerle un nombre**.
 
-### Concepto
+### 🧠 Concepto
 
 Una **variable** es un nombre que se refiere a un valor guardado en la memoria. Crear
 una variable en Python se hace con una **asignación**, usando el signo `=`:
@@ -97,7 +97,7 @@ a la derecha, el valor (o una expresión que produce un valor).
 > ("guarda 20 en edad"), no una afirmación. Para comparar si dos valores son iguales se
 > usa `==`, que veremos en Operadores.
 
-### Explicación
+### 📖 Explicación
 
 **Identificadores y reglas de nombrado.** El nombre de una variable (su *identificador*)
 debe cumplir:
@@ -141,17 +141,17 @@ print(saldo)
 
 ---
 
-## 3. Algoritmos
+## 3️⃣ Algoritmos
 
 **Resultados de aprendizaje**: RA-3, RA-9.
 
-### Contexto
+### 🌍 Contexto
 
 Antes de escribir código conviene **pensar la solución**. Si empezamos a teclear sin un
 plan, es fácil perderse. Ese plan, expresado como una secuencia de pasos, es un
 algoritmo.
 
-### Concepto
+### 🧠 Concepto
 
 Un **algoritmo** es una secuencia **finita** y **ordenada** de pasos **precisos** que,
 a partir de unos datos de entrada, produce un resultado y **termina**.
@@ -163,7 +163,7 @@ Características de un buen algoritmo:
 - **Finito**: termina después de un número acotado de pasos.
 - **Con entrada y salida**: parte de datos conocidos y produce un resultado.
 
-### Explicación
+### 📖 Explicación
 
 **Análisis entrada – proceso – salida.** Para analizar un problema respondemos tres
 preguntas:
@@ -210,17 +210,17 @@ conocemos el resultado esperado (por ejemplo, `4` y `6` deben dar `5.0`).
 
 ---
 
-## 4. Operadores
+## 4️⃣ Operadores
 
 **Resultado de aprendizaje**: RA-4.
 
-### Contexto
+### 🌍 Contexto
 
 En el proceso de un algoritmo casi siempre hay **cálculos** y **comparaciones**: sumar
 precios, ver si una edad alcanza un mínimo, comprobar dos condiciones a la vez. Para eso
 usamos operadores.
 
-### Concepto
+### 🧠 Concepto
 
 Un **operador** es un símbolo que combina uno o más valores (*operandos*) y produce un
 resultado. Los agrupamos en cuatro familias:
@@ -232,7 +232,7 @@ resultado. Los agrupamos en cuatro familias:
 | Lógicos | `and` `or` `not` | `True and False` | `False` |
 | Asignación | `=` `+=` `-=` `*=` `/=` | `x += 1` | suma 1 a `x` |
 
-### Explicación
+### 📖 Explicación
 
 **Aritméticos.** Además de las cuatro operaciones habituales:
 
@@ -284,17 +284,17 @@ print((2 + 3) * 4)      # 20  (primero el paréntesis)
 
 ---
 
-## 5. Estructuras condicionales
+## 5️⃣ Estructuras condicionales
 
 **Resultados de aprendizaje**: RA-5, RA-8.
 
-### Contexto
+### 🌍 Contexto
 
 Muchos problemas requieren **decidir**: si el cliente es mayor de edad, mostrar una
 opción; si no, mostrar otra. El programa debe ejecutar **distintas instrucciones según
 una condición**.
 
-### Concepto
+### 🧠 Concepto
 
 Una **estructura condicional** ejecuta un bloque de código **solo si** una condición
 (una expresión que vale `True` o `False`) se cumple.
@@ -309,7 +309,7 @@ La línea termina en `:` y el bloque que depende del `if` va **indentado** (con 
 normalmente 4 espacios). La indentación es la que indica a Python qué instrucciones
 están "dentro" del `if`.
 
-### Explicación
+### 📖 Explicación
 
 **`if` / `else`.** `else` define qué hacer cuando la condición **no** se cumple:
 
@@ -353,17 +353,17 @@ combinan variables y operadores para expresar la regla de decisión del problema
 
 ---
 
-## 6. Bucles
+## 6️⃣ Bucles
 
 **Resultados de aprendizaje**: RA-6, RA-7, RA-8.
 
-### Contexto
+### 🌍 Contexto
 
 A veces hay que **repetir** una acción: mostrar los números del 1 al 10, pedir una
 contraseña hasta que sea correcta, sumar una lista de precios. Escribir la instrucción
 muchas veces es inviable; para eso existen los bucles.
 
-### Concepto
+### 🧠 Concepto
 
 Un **bucle** repite un bloque de instrucciones. Python tiene dos:
 
@@ -372,7 +372,7 @@ Un **bucle** repite un bloque de instrucciones. Python tiene dos:
 - **`while`**: repite **mientras** una condición sea verdadera; el número de
   repeticiones **no se conoce de antemano**.
 
-### Explicación
+### 📖 Explicación
 
 **Bucle `for` con `range`.** `range(inicio, fin)` genera los números desde `inicio`
 hasta `fin - 1`:

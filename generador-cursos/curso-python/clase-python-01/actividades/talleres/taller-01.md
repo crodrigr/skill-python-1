@@ -1,16 +1,16 @@
-# Taller 01 — Calculadora de propina
+# 🛠️ Taller 01 — Calculadora de propina
 
 **Actividad guiada** · Duración estimada: 40–50 min · **Resultados de aprendizaje**:
 RA-3, RA-4, RA-5, RA-6, RA-8, RA-9
 
-## Objetivo
+## 🎯 Objetivo
 
 Construir, siguiendo la secuencia **análisis → algoritmo → programa → prueba**, un programa
 que combine variables, operadores, una decisión y una repetición para resolver un
 problema cotidiano: repartir la cuenta de un restaurante con propina entre varias
 personas (RA-3, RA-8, RA-9).
 
-## Contexto
+## 🌍 Contexto
 
 Un grupo de amigos comparte la cuenta de un restaurante. Quieren agregar una propina que
 depende de qué tan bueno fue el servicio y luego dividir el total en partes iguales.
@@ -21,9 +21,9 @@ Regla de la propina, según una calificación del servicio de 1 a 5:
 - Calificación 2 o 3 → 10% de propina.
 - Calificación 1 → sin propina.
 
-## Pasos
+## 🪜 Pasos
 
-### 1. Analizar el problema
+### 1️⃣ Analizar el problema
 
 Completa el análisis:
 
@@ -33,7 +33,7 @@ Completa el análisis:
 | Proceso | elegir el porcentaje de propina (decisión); calcular propina y total; dividir el total entre las personas y mostrar la parte de cada una (repetición) |
 | Salida | porcentaje aplicado, propina, total y la parte que paga cada persona |
 
-### 2. Diseñar el algoritmo (pseudocódigo)
+### 2️⃣ Diseñar el algoritmo (pseudocódigo)
 
 ```text
 Leer monto_cuenta, calificacion_servicio, numero_personas
@@ -54,7 +54,7 @@ Para persona desde 1 hasta numero_personas:
     Mostrar "Persona <persona> paga <parte>"
 ```
 
-### 3. Escribir el programa
+### 3️⃣ Escribir el programa
 
 Traduce el pseudocódigo a Python. Debes usar:
 
@@ -63,19 +63,19 @@ Traduce el pseudocódigo a Python. Debes usar:
 - una estructura `if` / `elif` / `else` para el porcentaje;
 - un bucle `for` para recorrer a las personas.
 
-### 4. Probar
+### 4️⃣ Probar
 
 Ejecuta el programa con cada fila de la tabla de **Casos de prueba** y comprueba que la
 salida coincide.
 
-## Entregable
+## 📦 Entregable
 
 Un archivo `propina.py` que, con los datos fijados en el código, produzca exactamente la
 salida esperada para los casos de prueba. El programa debe combinar, como mínimo:
 variables, un operador aritmético, un operador de comparación, una decisión
 (`if/elif/else`) y una repetición (`for`).
 
-## Casos de prueba
+## 🧪 Casos de prueba
 
 | `monto_cuenta` | `calificacion_servicio` | `numero_personas` | Salida esperada |
 |----------------|--------------------------|-------------------|-----------------|
@@ -83,7 +83,7 @@ variables, un operador aritmético, un operador de comparación, una decisión
 | `20000` | `3` | `2` | `Porcentaje de propina: 10` · `Propina: 2000.0` · `Total: 22000.0` · `Persona 1 paga: 11000.0` · `Persona 2 paga: 11000.0` |
 | `15000` | `1` | `1` | `Porcentaje de propina: 0` · `Propina: 0.0` · `Total: 15000.0` · `Persona 1 paga: 15000.0` |
 
-## Criterios de evaluación
+## 📏 Criterios de evaluación
 
 - **Corrección del resultado**: la salida coincide con la esperada en los tres casos.
 - **Justificación de estructuras**: el estudiante explica por qué usó `if/elif/else`

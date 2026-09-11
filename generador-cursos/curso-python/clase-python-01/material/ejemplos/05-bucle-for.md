@@ -1,27 +1,27 @@
-# Ejemplo 05 — Bucle `for`
+# 💡 Ejemplo 05 — Bucle `for`
 
 **Tema**: repetición con un número conocido de vueltas; patrón acumulador ·
 **Resultados de aprendizaje**: RA-6, RA-7 · **Nivel**: intermedio-avanzado (quinto de la secuencia)
 
-## Problema
+## 🧩 Problema
 
 Una tienda registró las ventas (en pesos) de los primeros 5 días de la semana. Con esos
 valores fijos en el código, el programa debe mostrar el total vendido y el promedio
 diario.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: 5 montos de venta. En este ejemplo los recorremos con `range` sumando un
   monto fijo por día para mantenerlo simple; el foco es el bucle.
 - **Proceso**: repetir 5 veces (número **conocido** → `for`), acumulando la suma.
 - **Salida**: total y promedio.
 
-## Solución
+## 💡 Solución
 
 Usamos un `for` con `range(1, 6)` para las 5 vueltas y una variable **acumuladora**
 `total_ventas` que empieza en 0 y crece en cada vuelta. Al final dividimos entre 5.
 
-## Código
+## 💻 Código
 
 ```python
 # Venta de cada día: 10000 el día 1, 20000 el día 2, ... (dia * 10000)
@@ -39,7 +39,7 @@ print("Total de la semana:", total_ventas)
 print("Promedio diario:", promedio)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. `total_ventas = 0`: la acumuladora parte en cero.
 2. `range(1, 6)` produce `1, 2, 3, 4, 5`. La variable `dia` toma uno de esos valores en
@@ -51,7 +51,7 @@ print("Promedio diario:", promedio)
 4. Al salir del bucle, `promedio = 150000 / 5` → `30000.0`.
 5. Elegimos `for` (no `while`) porque sabíamos de antemano que eran **5** vueltas.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 Día 1 - venta: 10000

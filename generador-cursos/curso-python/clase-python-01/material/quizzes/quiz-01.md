@@ -1,4 +1,4 @@
-# Quiz 01 — Fundamentos de Programación con Python
+# ❓ Quiz 01 — Fundamentos de Programación con Python
 
 **Instrucciones**: 10 preguntas. En las de selección múltiple, marca **una** opción. En
 las de análisis y de corrección, escribe tu respuesta con una breve justificación. El
@@ -9,7 +9,7 @@ problema final se entrega como código.
 
 ---
 
-## 1. [Selección múltiple]
+## 1️⃣ [🔘 Selección múltiple]
 
 ¿Cuál de las siguientes afirmaciones describe **mejor** por qué Python es adecuado para
 aprender a programar?
@@ -24,7 +24,7 @@ _RA: RA-1_
 
 ---
 
-## 2. [Selección múltiple]
+## 2️⃣ [🔘 Selección múltiple]
 
 ¿Cuál de estos nombres de variable es **válido** en Python?
 
@@ -37,7 +37,7 @@ _RA: RA-2_
 
 ---
 
-## 3. [Selección múltiple]
+## 3️⃣ [🔘 Selección múltiple]
 
 Dada la asignación `activo = True`, ¿de qué tipo es el valor guardado en `activo`?
 
@@ -50,7 +50,7 @@ _RA: RA-2_
 
 ---
 
-## 4. [Selección múltiple]
+## 4️⃣ [🔘 Selección múltiple]
 
 Un problema pide: "leer el precio de un producto y la cantidad comprada, y mostrar el
 total a pagar". ¿Cuál es el **proceso** en el análisis entrada–proceso–salida?
@@ -64,7 +64,7 @@ _RA: RA-3_
 
 ---
 
-## 5. [Análisis de código]
+## 5️⃣ [🔬 Análisis de código]
 
 Analiza el siguiente programa. Indica **qué valor imprime** y explica **en qué orden**
 se aplican los operadores.
@@ -78,7 +78,7 @@ _RA: RA-4_
 
 ---
 
-## 6. [Selección múltiple]
+## 6️⃣ [🔘 Selección múltiple]
 
 ¿Cuál es el valor de la siguiente expresión?
 
@@ -95,7 +95,7 @@ _RA: RA-4_
 
 ---
 
-## 7. [Identificación de resultado]
+## 7️⃣ [🎯 Identificación de resultado]
 
 ¿Qué imprime este código?
 
@@ -120,7 +120,7 @@ _RA: RA-5_
 
 ---
 
-## 8. [Corrección de errores]
+## 8️⃣ [🐛 Corrección de errores]
 
 El siguiente programa debería imprimir los números del 1 al 5, pero **no termina nunca**
 (bucle infinito). Identifica el error y reescribe el código corregido.
@@ -135,7 +135,7 @@ _RA: RA-6_
 
 ---
 
-## 9. [Análisis de código]
+## 9️⃣ [🔬 Análisis de código]
 
 Analiza el siguiente programa. Indica **qué valor imprime**, explica cómo cambia la
 variable `total` en cada vuelta y justifica por qué aquí es adecuado un bucle `for` y no
@@ -152,7 +152,7 @@ _RA: RA-6, RA-7, RA-8_
 
 ---
 
-## 10. [Problema breve de programación]
+## 🔟 [💻 Problema breve de programación]
 
 Escribe un programa que:
 

@@ -5,14 +5,14 @@ Regla: una sola idea clave por diapositiva; primero el apoyo visual, después po
 Total: 22 diapositivas (rango permitido 15-25).
 -->
 
-# Clase 01
+# 📘 Clase 01
 ## Fundamentos de Programación con Python
 
 Curso: Introducción a la Programación con Python · Duración: 4 horas
 
 ---
 
-## Qué vas a lograr hoy
+## 🎯 Qué vas a lograr hoy
 
 - Entender cómo un problema se convierte en un programa.
 - Usar variables, operadores, decisiones y repeticiones.
@@ -20,7 +20,7 @@ Curso: Introducción a la Programación con Python · Duración: 4 horas
 
 ---
 
-## ¿Qué es Python?
+## 🐍 ¿Qué es Python?
 
 ```python
 print("Hola, mundo")
@@ -30,7 +30,7 @@ Un lenguaje de programación de **sintaxis clara**: el código se lee casi como 
 
 ---
 
-## Características de Python
+## 🐍 Características de Python
 
 ```text
 programa.py  →  intérprete  →  resultado
@@ -42,7 +42,7 @@ programa.py  →  intérprete  →  resultado
 
 ---
 
-## Variables: la idea
+## 📦 Variables: la idea
 
 ```python
 edad = 20
@@ -55,7 +55,7 @@ Una **variable** es un nombre que guarda un valor. `=` significa "guarda este va
 
 ---
 
-## Reglas para nombrar variables
+## 🏷️ Reglas para nombrar variables
 
 | Válido | No válido |
 |--------|-----------|
@@ -67,7 +67,7 @@ Un buen nombre describe lo que guarda.
 
 ---
 
-## Tipos de datos básicos
+## 🏷️ Tipos de datos básicos
 
 | Tipo | Ejemplo |
 |------|---------|
@@ -78,7 +78,7 @@ Un buen nombre describe lo que guarda.
 
 ---
 
-## Variables en expresiones
+## 📦 Variables en expresiones
 
 ```python
 precio_unitario = 1200
@@ -90,7 +90,7 @@ El nombre se reemplaza por su valor al calcular.
 
 ---
 
-## ¿Qué es un algoritmo?
+## 🧠 ¿Qué es un algoritmo?
 
 ```text
 1. Leer nota1
@@ -103,7 +103,7 @@ Secuencia **finita**, **ordenada** y **precisa** de pasos que termina.
 
 ---
 
-## Entrada — Proceso — Salida
+## 🔄 Entrada — Proceso — Salida
 
 | Pregunta | Parte |
 |----------|-------|
@@ -113,7 +113,7 @@ Secuencia **finita**, **ordenada** y **precisa** de pasos que termina.
 
 ---
 
-## De algoritmo a programa
+## 📜 De algoritmo a programa
 
 ```python
 nota1 = float(input("Primera nota: "))
@@ -126,7 +126,7 @@ Cada paso del algoritmo → una instrucción.
 
 ---
 
-## Operadores aritméticos
+## ➕ Operadores aritméticos
 
 | `+` `-` `*` | `/` → `3.0` |
 |-------------|-------------|
@@ -136,7 +136,7 @@ Cada paso del algoritmo → una instrucción.
 
 ---
 
-## Operadores de comparación
+## ⚖️ Operadores de comparación
 
 ```python
 edad = 17
@@ -147,7 +147,7 @@ print(edad >= 18)   # False
 
 ---
 
-## Operadores lógicos
+## 🔗 Operadores lógicos
 
 ```python
 print(True and False)   # False
@@ -160,7 +160,7 @@ print(not False)        # True
 
 ---
 
-## Tomar decisiones: `if` / `else`
+## 🔀 Tomar decisiones: `if` / `else`
 
 ```python
 edad = 16
@@ -174,7 +174,7 @@ El bloque indentado se ejecuta solo si la condición es `True`.
 
 ---
 
-## Varios caminos: `if` / `elif` / `else`
+## 🔀 Varios caminos: `if` / `elif` / `else`
 
 ```python
 nota = 5.2
@@ -190,7 +190,7 @@ Se ejecuta el **primer** bloque cuya condición es verdadera.
 
 ---
 
-## Repetir: bucle `for`
+## 🔁 Repetir: bucle `for`
 
 ```python
 for numero in range(1, 6):
@@ -201,7 +201,7 @@ Se usa cuando **sé cuántas veces** repetir.
 
 ---
 
-## Repetir: bucle `while`
+## 🔁 Repetir: bucle `while`
 
 ```python
 contador = 1
@@ -214,7 +214,7 @@ Se repite **mientras** la condición sea verdadera. Algo debe cambiar dentro.
 
 ---
 
-## `for` vs `while`
+## ⚖️ `for` vs `while`
 
 | Sé cuántas veces | No lo sé; depende de una condición |
 |------------------|-----------------------------------|
@@ -223,7 +223,7 @@ Se repite **mientras** la condición sea verdadera. Algo debe cambiar dentro.
 
 ---
 
-## Actividad práctica
+## 🛠️ Actividad práctica
 
 **Taller 01 — Calculadora de propina**
 
@@ -232,7 +232,7 @@ Combina variables, operadores, una decisión y una repetición.
 
 ---
 
-## Resumen
+## 📌 Resumen
 
 - Problema → análisis (entrada/proceso/salida) → algoritmo → programa → prueba.
 - Variables guardan datos; operadores calculan y comparan.
@@ -240,7 +240,7 @@ Combina variables, operadores, una decisión y una repetición.
 
 ---
 
-## Evaluación
+## 📝 Evaluación
 
 **Quiz 01** — 10 preguntas: selección múltiple, análisis de código, identificación de
 resultados, corrección de errores y un problema breve de programación.

@@ -1,4 +1,4 @@
-# Explicación conceptual — Clase 02: Funciones
+# 📚 Explicación conceptual — Clase 02: Funciones
 
 Este documento desarrolla, en orden pedagógico, los siete bloques temáticos de la clase.
 Cada bloque sigue la secuencia **Contexto → Concepto → Explicación**. El lenguaje es
@@ -12,11 +12,11 @@ comillas triples (*docstring*) que dice qué hace.
 
 ---
 
-## 1. Concepto de función
+## 1️⃣ Concepto de función
 
 **Resultados de aprendizaje**: RA-1.
 
-### Contexto
+### 🌍 Contexto
 
 En la Clase 01 escribíamos programas como una única lista de instrucciones, de arriba
 abajo. Cuando un cálculo se necesitaba dos veces, se copiaba y se pegaba. Ese estilo
@@ -24,7 +24,7 @@ funciona en programas de diez líneas, pero se vuelve difícil de leer y de corr
 cuanto el programa crece: si el cálculo copiado tenía un error, hay que arreglarlo en
 todas las copias.
 
-### Concepto
+### 🧠 Concepto
 
 Una **función** es un fragmento de código con **nombre** que resuelve una tarea concreta.
 Se escribe una sola vez y se usa (se **llama**) tantas veces como haga falta.
@@ -39,7 +39,7 @@ Dos ideas explican para qué sirven:
 Una función es, entonces, una **herramienta**: la construyes una vez y luego la usas sin
 volver a mirar su interior, igual que usas una calculadora sin saber cómo suma por dentro.
 
-### Explicación
+### 📖 Explicación
 
 Comparemos el mismo trabajo —saludar a tres personas— sin función y con función:
 
@@ -62,17 +62,17 @@ Ver el [Ejemplo 01 — Función simple](01-funcion-simple.md).
 
 ---
 
-## 2. Definición y llamada
+## 2️⃣ Definición y llamada
 
 **Resultados de aprendizaje**: RA-2, RA-5.
 
-### Contexto
+### 🌍 Contexto
 
 Para usar una función hay que hacer dos cosas distintas en dos momentos distintos:
 **definirla** (decir qué hace) y **llamarla** (pedir que lo haga). Confundir ambas es el
 error más común al empezar.
 
-### Concepto
+### 🧠 Concepto
 
 Se **define** una función con la palabra reservada `def`:
 
@@ -98,7 +98,7 @@ escribiendo su nombre seguido de paréntesis:
 mostrar_bienvenida()
 ```
 
-### Explicación
+### 📖 Explicación
 
 **Flujo de ejecución.** Cuando el programa llega a una llamada:
 
@@ -125,17 +125,17 @@ Ver el [Ejemplo 01 — Función simple](01-funcion-simple.md).
 
 ---
 
-## 3. Parámetros y argumentos
+## 3️⃣ Parámetros y argumentos
 
 **Resultados de aprendizaje**: RA-3.
 
-### Contexto
+### 🌍 Contexto
 
 `mostrar_bienvenida()` siempre hace exactamente lo mismo. Casi siempre queremos que una
 función trabaje con **datos distintos** cada vez: saludar a *otra* persona, calcular el
 área de *otro* rectángulo. Esos datos entran por los **parámetros**.
 
-### Concepto
+### 🧠 Concepto
 
 Un **parámetro** es un nombre que aparece entre los paréntesis de la **definición**. Un
 **argumento** es el valor concreto que se pasa en la **llamada**.
@@ -151,7 +151,7 @@ mostrar_area_rectangulo(3, 4)                 # 3 y 4 son ARGUMENTOS
 Dentro de la función, los parámetros se comportan como variables ya creadas: en la
 llamada anterior, `base` vale `3` y `altura` vale `4`.
 
-### Explicación
+### 📖 Explicación
 
 **Argumentos posicionales.** Por defecto, el primer argumento va al primer parámetro, el
 segundo al segundo, etc. El **orden importa**: `mostrar_area_rectangulo(3, 4)` no es lo
@@ -183,17 +183,17 @@ Ver los ejemplos [02 — Función con parámetros](02-funcion-parametros.md) y
 
 ---
 
-## 4. Valor de retorno
+## 4️⃣ Valor de retorno
 
 **Resultados de aprendizaje**: RA-4.
 
-### Contexto
+### 🌍 Contexto
 
 `mostrar_area_rectangulo` **imprime** el área, pero el programa no puede hacer nada más
 con ese número: no se puede sumar a otro, ni guardar, ni comparar. Para que la función
 **entregue** un resultado al resto del programa se usa `return`.
 
-### Concepto
+### 🧠 Concepto
 
 `return` hace dos cosas a la vez:
 
@@ -209,7 +209,7 @@ area = area_rectangulo(3, 4)   # 'area' recibe el 12 que devolvió la función
 print(area + 100)              # ahora sí se puede operar con el resultado
 ```
 
-### Explicación
+### 📖 Explicación
 
 **`return` frente a `print`:**
 
@@ -236,16 +236,16 @@ Ver el [Ejemplo 03 — Función con retorno](03-funcion-retorno.md).
 
 ---
 
-## 5. Alcance
+## 5️⃣ Alcance
 
 **Resultados de aprendizaje**: RA-2, RA-4.
 
-### Contexto
+### 🌍 Contexto
 
 Al escribir funciones aparece una duda razonable: si creo una variable dentro de una
 función, ¿existe también fuera? La respuesta evita muchos errores confusos.
 
-### Concepto
+### 🧠 Concepto
 
 Las variables creadas dentro de una función son **locales**: nacen cuando la función se
 llama y desaparecen cuando termina. **No existen fuera** de la función. Los parámetros
@@ -260,7 +260,7 @@ calcular()
 print(resultado)        # NameError: 'resultado' no existe aquí
 ```
 
-### Explicación
+### 📖 Explicación
 
 Para sacar un valor de una función, la vía correcta es `return`, no "dejarlo" en una
 variable con la esperanza de leerlo desde fuera.
@@ -272,17 +272,17 @@ predecible.
 
 ---
 
-## 6. Reutilización y refactorización
+## 6️⃣ Reutilización y refactorización
 
 **Resultados de aprendizaje**: RA-5, RA-6.
 
-### Contexto
+### 🌍 Contexto
 
 Muchos programas ya escritos "funcionan" pero tienen el mismo bloque de código repetido
 varias veces, o mezclan en un mismo sitio tareas distintas. Mejorar esa estructura sin
 cambiar lo que el programa hace se llama **refactorizar**.
 
-### Concepto
+### 🧠 Concepto
 
 **Refactorizar con funciones** consiste en:
 
@@ -292,7 +292,7 @@ cambiar lo que el programa hace se llama **refactorizar**.
 3. Sustituir cada copia por una **llamada** a esa función.
 4. Comprobar que el programa produce **el mismo resultado** que antes.
 
-### Explicación
+### 📖 Explicación
 
 Antes (el cálculo del promedio está escrito tres veces):
 
@@ -326,16 +326,16 @@ Ver el [Ejemplo 05 — Refactorización](05-refactorizacion.md).
 
 ---
 
-## 7. Composición de funciones
+## 7️⃣ Composición de funciones
 
 **Resultados de aprendizaje**: RA-7.
 
-### Contexto
+### 🌍 Contexto
 
 Un problema mediano rara vez se resuelve con una función. La estrategia es partirlo en
 tareas pequeñas, escribir una función para cada una y luego combinarlas.
 
-### Concepto
+### 🧠 Concepto
 
 **Componer** funciones significa que unas funciones usan el resultado de otras, y que un
 **bloque principal** (a menudo una función `main`) las coordina.
@@ -357,7 +357,7 @@ def total_a_pagar(precio_unitario, cantidad, porcentaje):
 `total_a_pagar` no repite ningún cálculo: **llama** a `subtotal` y pasa su resultado a
 `con_descuento`.
 
-### Explicación
+### 📖 Explicación
 
 Para descomponer un problema, una guía útil:
 

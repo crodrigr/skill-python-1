@@ -1,6 +1,6 @@
-# Avanzado 02 — Adivina el número
+# 🔴 Avanzado 02 — Adivina el número
 
-## Problema
+## 🧩 Problema
 
 El programa tiene un número secreto guardado en una variable (por ejemplo, `7`). Hay una
 lista fija de intentos que se van probando **uno a uno** hasta acertar o hasta quedarse
@@ -10,14 +10,14 @@ sin intentos. Para cada intento, el programa indica si es `muy bajo`, `muy alto`
 Para simplificar, los intentos se recorren desde una variable `intento` que empieza en
 `1` y aumenta de a `2` en cada vuelta (`1, 3, 5, 7, ...`), y el número secreto es `7`.
 
-## Entrada
+## 📥 Entrada
 
 - `numero_secreto` (`int`), fijado en el código (`7`).
 - `intento` inicial (`int`) y el paso de aumento, fijados en el código.
 - `maximo_valor` (`int`): valor máximo que puede tomar `intento` antes de rendirse
   (por ejemplo, `9`).
 
-## Proceso esperado
+## ⚙️ Proceso esperado
 
 1. Usar un bucle `while` que se repita **mientras** `intento <= maximo_valor` y todavía
    no se haya acertado.
@@ -26,7 +26,7 @@ Para simplificar, los intentos se recorren desde una variable `intento` que empi
 3. Llevar un contador de intentos y una variable booleana `adivinado`.
 4. Aumentar `intento` en cada vuelta (para evitar un bucle infinito).
 
-## Salida
+## 📤 Salida
 
 Varias líneas: un mensaje por intento y un resumen final. Ejemplo:
 
@@ -38,18 +38,18 @@ Intento 4 (valor 7): correcto
 Adivinado en 4 intentos
 ```
 
-## Restricciones
+## 🚧 Restricciones
 
 - Debe usarse un bucle `while` (no se sabe de antemano en qué vuelta se acierta).
 - Debe combinarse el bucle con un `if` / `elif` / `else` y operadores de comparación.
 - El valor de `intento` debe cambiar dentro del bucle.
 - Identificadores y comentarios en español.
 
-## Dificultad
+## 📊 Dificultad
 
 Avanzado
 
-## Resultados de aprendizaje
+## 🎓 Resultados de aprendizaje
 
 - RA-6: usar un bucle `while` para repetir un proceso.
 - RA-7: reconocer que `while` es adecuado cuando el final depende de una condición.

@@ -1,11 +1,11 @@
-# Clave del Quiz 01 — Clase 01
+# 🔑 Clave del Quiz 01 — Clase 01
 
 > **Material docente.** No entregar al estudiantado. Referencia rápida:
 > 1-B · 2-C · 3-D · 4-B · 5→50 · 6-B · 7-B · 8→falta incrementar `numero` · 9→12 · 10→programa
 
 ---
 
-## 1. Respuesta: **B**
+## 1️⃣ Respuesta: **B**
 
 Python es adecuado para aprender porque su sintaxis es clara y legible y es un lenguaje
 interpretado (se ejecuta línea por línea, sin un paso de compilación). A) es falso
@@ -16,7 +16,7 @@ _RA: RA-1_
 
 ---
 
-## 2. Respuesta: **C**
+## 2️⃣ Respuesta: **C**
 
 `promedio_notas` cumple las reglas: empieza por letra y solo tiene letras y guion bajo.
 A) empieza por dígito; B) tiene un espacio; D) `for` es una palabra reservada.
@@ -25,7 +25,7 @@ _RA: RA-2_
 
 ---
 
-## 3. Respuesta: **D**
+## 3️⃣ Respuesta: **D**
 
 `True` (y `False`) son valores de tipo `bool`.
 
@@ -33,7 +33,7 @@ _RA: RA-2_
 
 ---
 
-## 4. Respuesta: **B**
+## 4️⃣ Respuesta: **B**
 
 El **proceso** es lo que se hace con los datos: multiplicar precio por cantidad. A) es la
 entrada; C) es la salida; D) no forma parte del problema.
@@ -42,7 +42,7 @@ _RA: RA-3_
 
 ---
 
-## 5. Imprime **50**
+## 5️⃣ Imprime **50**
 
 Orden de evaluación por precedencia:
 
@@ -57,7 +57,7 @@ _RA: RA-4_
 
 ---
 
-## 6. Respuesta: **B** (`False`)
+## 6️⃣ Respuesta: **B** (`False`)
 
 `5 > 3` → `True`; `2 >= 4` → `False`. `True and False` → `False`.
 
@@ -65,7 +65,7 @@ _RA: RA-4_
 
 ---
 
-## 7. Respuesta: **B**
+## 7️⃣ Respuesta: **B**
 
 `x = 7`. `x > 10` → `False`; `x > 5` → `True`, por lo que se ejecuta `print("B")` y se
 ignoran el resto de `elif` y el `else`. En un `if/elif/else` se ejecuta **un solo**
@@ -75,7 +75,7 @@ _RA: RA-5_
 
 ---
 
-## 8. Error: el bucle no modifica `numero`
+## 8️⃣ Error: el bucle no modifica `numero`
 
 La condición `numero <= 5` siempre es verdadera porque `numero` nunca cambia dentro del
 bucle. Falta incrementarlo. Código corregido:
@@ -93,7 +93,7 @@ _RA: RA-6_
 
 ---
 
-## 9. Imprime **12**
+## 9️⃣ Imprime **12**
 
 - Vuelta con `i = 1`: `total = 0 + 1 * 2` → `2`.
 - Vuelta con `i = 2`: `total = 2 + 2 * 2` → `6`.
@@ -107,7 +107,7 @@ _RA: RA-6, RA-7, RA-8_
 
 ---
 
-## 10. Solución de referencia
+## 🔟 Solución de referencia
 
 ```python
 # 1. Variables con los tres precios

@@ -1,26 +1,26 @@
-# Ejemplo 02 — Función con parámetros
+# 💡 Ejemplo 02 — Función con parámetros
 
 **Tema**: pasar datos a una función mediante parámetros; parámetro vs argumento
 · **Resultados de aprendizaje**: RA-2, RA-3 · **Nivel**: básico
 
-## Problema
+## 🧩 Problema
 
 Necesitamos mostrar el área de varios rectángulos distintos. El cálculo es siempre el
 mismo (`base * altura`), pero los números cambian en cada caso.
 
-## Análisis
+## 🔍 Análisis
 
 - **Entrada**: la base y la altura de cada rectángulo.
 - **Proceso**: multiplicar base por altura.
 - **Salida**: un mensaje con el área, para cada rectángulo.
 
-## Solución
+## 💡 Solución
 
 1. Definir `mostrar_area_rectangulo(base, altura)` con dos **parámetros**.
 2. Dentro, calcular el área y mostrarla.
 3. Llamar a la función con los **argumentos** de cada rectángulo.
 
-## Código
+## 💻 Código
 
 ```python
 def mostrar_area_rectangulo(base, altura):
@@ -32,7 +32,7 @@ mostrar_area_rectangulo(3, 4)
 mostrar_area_rectangulo(10, 2)
 ```
 
-## Explicación paso a paso
+## 🧭 Explicación paso a paso
 
 1. En la definición, `base` y `altura` son **parámetros**: nombres para los datos que
    la función recibirá.
@@ -46,7 +46,7 @@ mostrar_area_rectangulo(10, 2)
 
 > `base` y `altura` solo existen mientras la función se ejecuta: son variables locales.
 
-## Resultado esperado
+## ✅ Resultado esperado
 
 ```text
 El área del rectángulo es 12
