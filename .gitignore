@@ -2,3 +2,8 @@
 # (specs, herramientas del generador, scripts sueltos) queda fuera de GitHub.
 /generador-cursos/*
 !/generador-cursos/curso-python
+
+# Artefactos de ejecucion del codigo Python del curso (proyecto final, etc.)
+__pycache__/
+*.pyc
+/generador-cursos/curso-python/proyecto-final/solucion/biblioteca.txt
