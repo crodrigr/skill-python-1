@@ -42,6 +42,23 @@ Abrir carpeta`). Dentro, crea tres archivos vacíos: `libros.py`, `almacenamient
 y `main.py`. Usarás la terminal integrada de VS Code (`Ver > Terminal`) para ejecutar
 tu programa a medida que avances.
 
+Este es el árbol de archivos con el que vas a terminar (`biblioteca.txt` todavía no
+existe en este paso: lo crea el propio programa la primera vez que lo ejecutes, en el
+Paso 8):
+
+```text
+proyecto-biblioteca/
+├── libros.py            # Pasos 2, 3 y 4 - modelo del libro y operaciones sobre la coleccion
+├── almacenamiento.py    # Paso 5 - guardar y cargar desde archivo
+├── main.py              # Pasos 6 y 7 - menu y punto de entrada
+└── biblioteca.txt       # se crea solo, al ejecutar el programa (Paso 8)
+```
+
+📖 **Explicación**: cada archivo `.py` es un módulo con una única responsabilidad
+(Clase 06): `libros.py` sabe de libros, `almacenamiento.py` sabe de guardar/cargar, y
+`main.py` conecta a los otros dos con el menú. `biblioteca.txt` no lo creas tú a mano:
+es un archivo de datos que tu programa genera y actualiza solo.
+
 ### Paso 2 — Modelar un libro (`libros.py`)
 
 Un libro se representa como un diccionario con cuatro claves. Transcribe esto al
