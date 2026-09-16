@@ -60,6 +60,9 @@ ordenamiento, y cierra con tuplas y conjuntos.
 
 **Resultado de aprendizaje**: RA-2.
 
+**📎 Practicá esto**: [Ejemplo 01 — Crear listas, indexar y rebanar](01-crear-listas-indexar-rebanar.md) ·
+[Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 Ya sabemos que agrupar datos relacionados bajo un solo nombre resuelve el problema de
@@ -139,6 +142,10 @@ con certeza que existe.
 
 **Resultado de aprendizaje**: RA-3.
 
+**📎 Practicá esto**: [Ejemplo 02 — Agregar, eliminar y modificar elementos](02-agregar-eliminar-modificar.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
+
 ### 🌍 Contexto
 
 Una lista casi nunca es fija: llegan nuevos datos que agregar, otros que ya no
@@ -210,6 +217,10 @@ numeros[0] = 100       # [100, 1, 3]
 ## 4️⃣ Recorrido y transformación
 
 **Resultado de aprendizaje**: RA-4.
+
+**📎 Practicá esto**: [Ejemplo 03 — Recorrer y transformar una lista](03-recorrer-y-transformar.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
 
 ### 🌍 Contexto
 
@@ -289,6 +300,12 @@ evitar el error de "modifiqué una lista y otra cambió sin que yo lo pidiera".
 ## 5️⃣ Operaciones integradas
 
 **Resultado de aprendizaje**: RA-5.
+
+**📎 Practicá esto**: [Ejemplo 04 — Ordenar con sort, sorted y key](04-ordenar-sort-sorted-key.md) ·
+[Ejemplo 05 — Buscar y contar con funciones integradas](05-buscar-y-contar.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
 
 ### 🌍 Contexto
 
@@ -384,6 +401,10 @@ else:
 
 **Resultados de aprendizaje**: RA-6, RA-7.
 
+**📎 Practicá esto**: [Ejemplo 06 — Ordenamiento por burbuja, paso a paso](06-ordenamiento-burbuja.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 `sorted()` ordena cualquier lista en una sola línea. Entonces, ¿por qué estudiar cómo
@@ -477,6 +498,11 @@ lista en partes más pequeñas) requiere más base de la que se tiene hasta ahor
 
 **Resultado de aprendizaje**: RA-8.
 
+**📎 Practicá esto**: [Ejemplo 07 — Tuplas y desempaquetado](07-tuplas-desempaquetado.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Algunos datos, una vez creados, no deberían cambiar: la fecha de nacimiento de una
@@ -540,6 +566,11 @@ tupla.
 
 **Resultado de aprendizaje**: RA-9.
 
+**📎 Practicá esto**: [Ejemplo 08 — Conjuntos y sus operaciones](08-conjuntos-operaciones.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Algunas tareas no necesitan orden ni permiten repeticiones: la lista de países visitados
@@ -602,15 +633,3 @@ print(inscritos_python - inscritos_bases_datos)   # diferencia: solo en Python
 **Criterio de decisión.** Al modelar un problema, conviene preguntarse: ¿el orden
 importa? ¿los datos pueden repetirse? ¿necesito modificar la colección después de
 crearla? Las respuestas apuntan directamente a lista, tupla o conjunto.
-
----
-
-## 8️⃣ Conjuntos y comparación de estructuras
-
-**Resultado de aprendizaje**: RA-9.
-
-### 🌍 Contexto
-
-### 🧠 Concepto
-
-### 📖 Explicación

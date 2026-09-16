@@ -55,6 +55,9 @@ existir.
 
 **Resultado de aprendizaje**: RA-2.
 
+**📎 Practicá esto**: [Ejemplo 01 — Leer un archivo completo](01-leer-archivo-completo.md) ·
+[Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 Antes de leer o escribir un archivo, hay que decirle a Python cuál es (su ruta) y para
@@ -105,6 +108,10 @@ indentado; al salir de él, el archivo ya está cerrado.
 ## 3️⃣ Leer archivos
 
 **Resultado de aprendizaje**: RA-3.
+
+**📎 Practicá esto**: [Ejemplo 01 — Leer un archivo completo](01-leer-archivo-completo.md) ·
+[Ejemplo 02 — Leer línea a línea](02-leer-linea-a-linea.md) ·
+[Básico 01](../ejercicios/basico-01.md).
 
 ### 🌍 Contexto
 
@@ -159,6 +166,10 @@ de manejo de errores.
 ## 4️⃣ Escribir archivos
 
 **Resultado de aprendizaje**: RA-4.
+
+**📎 Practicá esto**: [Ejemplo 03 — Escribir y sobrescribir](03-escribir-sobrescribir.md) ·
+[Ejemplo 04 — Agregar contenido sin perder lo anterior](04-agregar-contenido.md) ·
+[Básico 02](../ejercicios/basico-02.md).
 
 ### 🌍 Contexto
 
@@ -219,6 +230,11 @@ habría perdido: `'w'` no avisa, simplemente sobrescribe.
 
 **Resultado de aprendizaje**: RA-5.
 
+**📎 Practicá esto**: [Ejemplo 05 — Procesar el contenido y guardarlo en otro archivo](05-procesar-y-guardar.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
+
 ### 🌍 Contexto
 
 Leer un archivo rara vez es el objetivo final: casi siempre hay que hacer algo con esos
@@ -273,6 +289,10 @@ se necesite — por ejemplo, uniendo valores con `str(...)` y separadores propio
 
 **Resultado de aprendizaje**: RA-6.
 
+**📎 Practicá esto**: [Ejemplo 06 — Manejar un archivo inexistente](06-manejar-archivo-inexistente.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Hasta ahora, todos los ejemplos abrieron archivos que el propio programa acababa de
@@ -322,6 +342,10 @@ que no es un número válido), pero no se cubren en profundidad aquí.
 
 **Resultado de aprendizaje**: RA-7.
 
+**📎 Practicá esto**: [Ejemplo 05 — Procesar el contenido y guardarlo en otro archivo](05-procesar-y-guardar.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Cada bloque anterior mostró una habilidad por separado: abrir y cerrar, leer, escribir,
@@ -355,15 +379,3 @@ anticipado.
 El taller de esta clase (más adelante, en las actividades) aplica exactamente esta
 estructura: lee un archivo de ventas que podría no existir, procesa cada línea, y
 escribe un reporte — el resultado esperado (RA-7) del módulo completo.
-
----
-
-## 7️⃣ Aplicación práctica
-
-**Resultado de aprendizaje**: RA-7.
-
-### 🌍 Contexto
-
-### 🧠 Concepto
-
-### 📖 Explicación

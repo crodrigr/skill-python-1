@@ -68,6 +68,9 @@ colección.
 
 **Resultado de aprendizaje**: RA-2.
 
+**📎 Practicá esto**: [Ejemplo 01 — Crear un diccionario, acceder y usar get](01-crear-acceder-get.md) ·
+[Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 Antes de usar un diccionario hay que saber crearlo: vacío (para llenarlo después) o con
@@ -116,6 +119,9 @@ Desde Python 3.7, un diccionario **conserva el orden** en que se agregaron sus c
 ## 3️⃣ Acceder a valores
 
 **Resultado de aprendizaje**: RA-3.
+
+**📎 Practicá esto**: [Ejemplo 01 — Crear un diccionario, acceder y usar get](01-crear-acceder-get.md) ·
+[Básico 02](../ejercicios/basico-02.md).
 
 ### 🌍 Contexto
 
@@ -169,6 +175,11 @@ inmediato (por ejemplo, `0` para un conteo); `in` es más claro cuando las dos r
 
 **Resultado de aprendizaje**: RA-4.
 
+**📎 Practicá esto**: [Ejemplo 02 — Agregar y modificar elementos](02-agregar-modificar.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
+
 ### 🌍 Contexto
 
 Un diccionario casi nunca queda fijo desde el inicio: llegan claves nuevas que agregar
@@ -210,6 +221,9 @@ diccionario sobre el que se llama; no crea uno nuevo.
 ## 5️⃣ Eliminar elementos
 
 **Resultado de aprendizaje**: RA-5.
+
+**📎 Practicá esto**: [Ejemplo 03 — Eliminar con del, pop y popitem](03-eliminar-del-pop-popitem.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md).
 
 ### 🌍 Contexto
 
@@ -254,21 +268,12 @@ clave.
 
 ---
 
-## 5️⃣ Eliminar elementos
-
-**Resultado de aprendizaje**: RA-5.
-
-### 🌍 Contexto
-
-### 🧠 Concepto
-
-### 📖 Explicación
-
----
-
 ## 6️⃣ Iterar diccionarios
 
 **Resultado de aprendizaje**: RA-6.
+
+**📎 Practicá esto**: [Ejemplo 04 — Iterar con keys, values e items](04-iterar-keys-values-items.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md).
 
 ### 🌍 Contexto
 
@@ -318,6 +323,12 @@ Las tres formas recorren el diccionario en el **orden de inserción** de sus cla
 
 **Resultados de aprendizaje**: RA-7, RA-8.
 
+**📎 Practicá esto**: [Ejemplo 05 — update y setdefault](05-update-setdefault.md) ·
+[Ejemplo 06 — Contar repeticiones con un diccionario](06-conteo-con-diccionario.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Ya se vieron, uno por uno, los métodos para crear, acceder, modificar, eliminar y
@@ -362,15 +373,3 @@ identificarse por clave (no por posición ni solo por presencia), y en particula
 necesita **contar o agrupar** algo por categoría, un diccionario es la estructura
 adecuada — una lista obligaría a buscar linealmente cada categoría, y un conjunto no
 permite asociar un valor a cada elemento.
-
----
-
-## 7️⃣ Métodos comunes y aplicación
-
-**Resultados de aprendizaje**: RA-7, RA-8.
-
-### 🌍 Contexto
-
-### 🧠 Concepto
-
-### 📖 Explicación

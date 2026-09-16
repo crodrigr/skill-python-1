@@ -16,6 +16,9 @@ comillas triples (*docstring*) que dice qué hace.
 
 **Resultados de aprendizaje**: RA-1.
 
+**📎 Practicá esto**: [Ejemplo 01 — Función simple](01-funcion-simple.md) ·
+[Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 En la Clase 01 escribíamos programas como una única lista de instrucciones, de arriba
@@ -65,6 +68,15 @@ Ver el [Ejemplo 01 — Función simple](01-funcion-simple.md).
 ## 2️⃣ Definición y llamada
 
 **Resultados de aprendizaje**: RA-2, RA-5.
+
+**📎 Practicá esto**: [Ejemplo 01 — Función simple](01-funcion-simple.md) ·
+[Ejemplo 05 — Refactorización](05-refactorizacion.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
 
 ### 🌍 Contexto
 
@@ -129,6 +141,12 @@ Ver el [Ejemplo 01 — Función simple](01-funcion-simple.md).
 
 **Resultados de aprendizaje**: RA-3.
 
+**📎 Practicá esto**: [Ejemplo 02 — Función con parámetros](02-funcion-parametros.md) ·
+[Ejemplo 04 — Valores por defecto](04-valores-por-defecto.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md).
+
 ### 🌍 Contexto
 
 `mostrar_bienvenida()` siempre hace exactamente lo mismo. Casi siempre queremos que una
@@ -187,6 +205,12 @@ Ver los ejemplos [02 — Función con parámetros](02-funcion-parametros.md) y
 
 **Resultados de aprendizaje**: RA-4.
 
+**📎 Practicá esto**: [Ejemplo 03 — Función con retorno](03-funcion-retorno.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 `mostrar_area_rectangulo` **imprime** el área, pero el programa no puede hacer nada más
@@ -240,6 +264,14 @@ Ver el [Ejemplo 03 — Función con retorno](03-funcion-retorno.md).
 
 **Resultados de aprendizaje**: RA-2, RA-4.
 
+**📎 Practicá esto**: [Ejemplo 01 — Función simple](01-funcion-simple.md) ·
+[Ejemplo 03 — Función con retorno](03-funcion-retorno.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Al escribir funciones aparece una duda razonable: si creo una variable dentro de una
@@ -275,6 +307,13 @@ predecible.
 ## 6️⃣ Reutilización y refactorización
 
 **Resultados de aprendizaje**: RA-5, RA-6.
+
+**📎 Practicá esto**: [Ejemplo 05 — Refactorización](05-refactorizacion.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
 
 ### 🌍 Contexto
 
@@ -329,6 +368,11 @@ Ver el [Ejemplo 05 — Refactorización](05-refactorizacion.md).
 ## 7️⃣ Composición de funciones
 
 **Resultados de aprendizaje**: RA-7.
+
+**📎 Practicá esto**: [Ejemplo 06 — Composición de funciones](06-composicion-funciones.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
 
 ### 🌍 Contexto
 

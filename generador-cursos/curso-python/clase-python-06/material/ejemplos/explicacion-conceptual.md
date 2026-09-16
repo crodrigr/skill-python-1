@@ -2,6 +2,9 @@
 
 ## 🌍 Modularidad
 
+**📎 Practicá esto**: [Ejemplo 01 — Crear un módulo propio](01-crear-modulo-propio.md) ·
+[Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 Hasta ahora, cada programa vivía en un único archivo `.py`. Mientras el programa es
@@ -39,6 +42,11 @@ hace falta ninguna configuración especial: basta con que ambos archivos estén 
 mismo directorio.
 
 ## 🌍 Crear e importar módulos propios
+
+**📎 Practicá esto**: [Ejemplo 01 — Crear un módulo propio](01-crear-modulo-propio.md) ·
+[Ejemplo 02 — Alias y `from...import`](02-alias-y-from-import.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
 
 ### 🌍 Contexto
 
@@ -81,6 +89,9 @@ de evitar colisiones de nombres, no de que una sea "más correcta" que la otra.
 
 ## 🌍 Módulo `collections`
 
+**📎 Practicá esto**: [Ejemplo 03 — `collections`: `Counter` y `deque`](03-collections-counter-deque.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md).
+
 ### 🌍 Contexto
 
 Ya conocemos listas, tuplas, conjuntos y diccionarios. Python trae, además, el módulo
@@ -113,6 +124,10 @@ recorrer con `for`, igual que una lista. En la siguiente sección usaremos justa
 `deque` para entender qué significa "ser iterable" por dentro.
 
 ## 🌍 Iterables e iteradores
+
+**📎 Practicá esto**: [Ejemplo 03 — `collections`: `Counter` y `deque`](03-collections-counter-deque.md) ·
+[Ejemplo 04 — Iterar con `iter()` y `next()`](04-iterar-con-iter-next.md) ·
+[Básico 02](../ejercicios/basico-02.md).
 
 ### 🌍 Contexto
 
@@ -151,6 +166,11 @@ sirve para entender ese mecanismo y para los casos en que se necesita leer los
 elementos "de a uno" bajo control explícito del programa.
 
 ## 🌍 Manejo de errores
+
+**📎 Practicá esto**: [Ejemplo 05 — `try`/`except`/`else`/`finally`](05-try-except-else-finally.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md).
 
 ### 🌍 Contexto
 
@@ -193,6 +213,10 @@ convertir a número; `diccionario["clave_inexistente"]` lanza `KeyError`; `10 / 
 
 ## 🌍 Los bloques `else` y `finally`
 
+**📎 Practicá esto**: [Ejemplo 05 — `try`/`except`/`else`/`finally`](05-try-except-else-finally.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md).
+
 ### 🌍 Contexto
 
 Un `try`/`except` decide qué pasa si hay un error. Pero a veces también hace falta
@@ -231,6 +255,10 @@ son opcionales y se agregan solo cuando el programa realmente necesita distingui
 esos dos momentos.
 
 ## 🌍 Aplicación práctica
+
+**📎 Practicá esto**: [Ejemplo 06 — Menú para comprar](06-menu-para-comprar.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
 
 ### 🌍 Contexto
 

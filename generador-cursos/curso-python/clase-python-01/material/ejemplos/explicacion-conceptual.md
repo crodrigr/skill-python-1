@@ -14,6 +14,8 @@ porque forman parte del lenguaje.
 
 **Resultado de aprendizaje**: RA-1.
 
+**📎 Practicá esto**: [Básico 01](../ejercicios/basico-01.md).
+
 ### 🌍 Contexto
 
 Una computadora solo sabe seguir instrucciones muy precisas. Para decirle qué hacer
@@ -74,6 +76,10 @@ Cómo se ejecuta un programa:
 ## 2️⃣ Variables
 
 **Resultado de aprendizaje**: RA-2.
+
+**📎 Practicá esto**: [Ejemplo 01 — Variables](01-variables.md) ·
+[Básico 01](../ejercicios/basico-01.md) ·
+[Básico 02](../ejercicios/basico-02.md).
 
 ### 🌍 Contexto
 
@@ -145,6 +151,9 @@ print(saldo)
 
 **Resultados de aprendizaje**: RA-3, RA-9.
 
+**📎 Practicá esto**: [Ejemplo 03 — De algoritmo a programa](03-algoritmo-a-python.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Antes de escribir código conviene **pensar la solución**. Si empezamos a teclear sin un
@@ -213,6 +222,11 @@ conocemos el resultado esperado (por ejemplo, `4` y `6` deben dar `5.0`).
 ## 4️⃣ Operadores
 
 **Resultado de aprendizaje**: RA-4.
+
+**📎 Practicá esto**: [Ejemplo 02 — Operadores](02-operadores.md) ·
+[Básico 02](../ejercicios/basico-02.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md).
 
 ### 🌍 Contexto
 
@@ -288,6 +302,11 @@ print((2 + 3) * 4)      # 20  (primero el paréntesis)
 
 **Resultados de aprendizaje**: RA-5, RA-8.
 
+**📎 Practicá esto**: [Ejemplo 04 — Condicional](04-condicional.md) ·
+[Intermedio 01](../ejercicios/intermedio-01.md) ·
+[Intermedio 02](../ejercicios/intermedio-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
+
 ### 🌍 Contexto
 
 Muchos problemas requieren **decidir**: si el cliente es mayor de edad, mostrar una
@@ -356,6 +375,12 @@ combinan variables y operadores para expresar la regla de decisión del problema
 ## 6️⃣ Bucles
 
 **Resultados de aprendizaje**: RA-6, RA-7, RA-8.
+
+**📎 Practicá esto**: [Ejemplo 05 — Bucle `for`](05-bucle-for.md) ·
+[Ejemplo 06 — Bucle `while`](06-bucle-while.md) ·
+[Avanzado 01](../ejercicios/avanzado-01.md) ·
+[Avanzado 02](../ejercicios/avanzado-02.md) ·
+[Desafío 01](../ejercicios/desafio-01.md).
 
 ### 🌍 Contexto
 
