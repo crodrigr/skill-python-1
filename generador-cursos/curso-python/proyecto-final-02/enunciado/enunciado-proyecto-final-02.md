@@ -6,9 +6,9 @@
 
 Diseñar y construir, **por tu cuenta y desde cero**, una aplicación de consola en
 Python que gestione el inventario y las ventas de una tienda de barrio, integrando
-todos los temas de las Clases 01 a 06 (variables y tipos, funciones, listas/tuplas/
-conjuntos, diccionarios, archivos de texto, módulos propios, `collections` y manejo
-de excepciones).
+todos los temas de las Clases 01 a 06 (variables y tipos, funciones, listas, tuplas,
+conjuntos, diccionarios, archivos de texto, módulos propios y manejo de excepciones),
+resolviendo todo con esas estructuras de datos, sin recurrir al módulo `collections`.
 
 A diferencia del **Proyecto final 01** (donde transcribías una guía con el código ya
 resuelto), aquí solo recibes el problema y los requisitos que tu solución debe
@@ -43,8 +43,9 @@ propios y guardar/cargar datos en un archivo de texto sin ayuda paso a paso.
   un único registro plano.
 - Reglas de integridad: no se puede vender más stock del disponible, ni eliminar un
   producto que ya tiene ventas asociadas.
-- Reportes que exigen agrupar y contar datos (`collections.Counter`, `setdefault`,
-  `collections.deque`), no solo listar u ordenar.
+- Reportes que exigen agrupar y contar datos a mano, combinando listas, tuplas,
+  conjuntos y diccionarios (por ejemplo, un diccionario para acumular cantidades por
+  producto, o `setdefault` para agrupar por categoría), no solo listar u ordenar.
 - Vos diseñás el formato de guardado en archivo (no se te da un formato listo), y debe
   soportar una venta con una cantidad variable de ítems.
 
@@ -88,9 +89,11 @@ propios y guardar/cargar datos en un archivo de texto sin ayuda paso a paso.
 
 ### Reportes
 
-- **Producto más vendido**: el producto con mayor cantidad total vendida (unidades),
-  usando `collections.Counter` sobre las cantidades de todos los ítems de todas las
-  ventas.
+- **Producto más vendido**: el producto con mayor cantidad total vendida (unidades).
+  Armalo recorriendo todos los ítems de todas las ventas y acumulando la cantidad de
+  cada producto en un diccionario (clave: código, valor: cantidad acumulada); el
+  resultado sale de buscar la clave con el valor más alto de ese diccionario (por
+  ejemplo, con `max(diccionario, key=diccionario.get)`).
 - **Ingresos totales**: suma de los totales de todas las ventas registradas.
 - **Alerta de stock bajo**: lista de productos cuyo stock actual está por debajo de su
   stock mínimo.
@@ -98,8 +101,8 @@ propios y guardar/cargar datos en un archivo de texto sin ayuda paso a paso.
   de producto, usando un diccionario armado con `setdefault` (o equivalente) para
   acumular por clave.
 - **Últimas ventas**: las últimas 5 ventas registradas, en orden del más reciente al
-  más antiguo, manteniendas en memoria con un `collections.deque` de tamaño máximo 5
-  durante la ejecución del programa.
+  más antiguo. Alcanza con la lista de ventas que ya tenés en memoria: tomá los
+  últimos 5 elementos con slicing (por ejemplo `ventas[-5:]`) e invertí ese resultado.
 
 ### Menú
 
@@ -181,6 +184,10 @@ aprovechá `else`/`finally` donde tenga sentido, como se vio en la Clase 06.
   interfaz gráfica.
 - Sin programación orientada a objetos (clases propias): resolvé todo con funciones,
   diccionarios, listas, tuplas y conjuntos, como en las Clases 01 a 06.
+- Sin el módulo `collections` (ni `Counter`, ni `deque`, ni similares): todo el
+  conteo, la agrupación y el historial de ventas se resuelven con listas, tuplas,
+  conjuntos y diccionarios simples (`setdefault` sigue siendo válido: es un método de
+  los diccionarios, no del módulo `collections`).
 - Sin el módulo `datetime` ni similares: la fecha de una venta es un texto simple
   ingresado por el usuario, no un objeto de fecha.
 - Identificadores y comentarios en español (salvo palabras reservadas y nombres de la
