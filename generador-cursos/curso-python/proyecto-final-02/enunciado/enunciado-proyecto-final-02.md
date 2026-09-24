@@ -163,6 +163,44 @@ proyecto-tienda/
 - Si alguno de los dos archivos todavía no existe (primera ejecución), el programa
   debe iniciar con catálogo y/o historial de ventas vacíos, sin fallar.
 
+### 💡 Ejemplo de formato (solo de referencia, no obligatorio)
+
+El diseño del formato es parte del desafío, así que esto es apenas **una** manera
+posible de resolverlo, no el formato que hay que copiar. Sirve para entender el
+problema (una venta con cantidad variable de ítems en una sola línea de texto) antes
+de diseñar la propia solución.
+
+`productos.txt` — un producto por línea, campos separados por `|`:
+
+```text
+P001|Arroz 1kg|Almacen|1500.0|40|10
+P002|Fideos 500g|Almacen|900.0|25|10
+P003|Coca-Cola 1.5L|Bebidas|1800.0|15|5
+P004|Jabon en polvo|Limpieza|2200.0|8|10
+```
+
+(`código|nombre|categoría|precio_unitario|stock_actual|stock_mínimo`)
+
+`ventas.txt` — una venta por línea, con dos separadores anidados: `|` entre los
+datos generales de la venta y `;` entre los ítems; dentro de cada ítem, los campos
+van separados por `,`:
+
+```text
+1|2026-09-24|P001,Arroz 1kg,2,1500.0,3000.0;P003,Coca-Cola 1.5L,1,1800.0,1800.0|4800.0
+2|2026-09-24|P002,Fideos 500g,3,900.0,2700.0|2700.0
+```
+
+(`número_venta|fecha|ítem1;ítem2;...|total`, donde cada ítem es
+`código,nombre,cantidad,precio_unitario,subtotal`)
+
+Para reconstruir una venta al cargar el archivo, la línea se separa primero por
+`|` (para obtener número, fecha, bloque de ítems y total), luego el bloque de
+ítems se separa por `;` (para obtener cada ítem), y por último cada ítem se separa
+por `,` (para obtener sus campos). Otras soluciones válidas incluyen usar un
+separador distinto, guardar cada ítem en una línea propia asociada al número de
+venta, o cualquier otro esquema que el estudiante prefiera, siempre que pueda
+guardar y recuperar la información sin perder datos.
+
 ---
 
 ## 🚧 Manejo de errores exigido
