@@ -8,7 +8,7 @@ Diseñar y construir, **por tu cuenta y desde cero**, una aplicación de consola
 Python que gestione el inventario y las ventas de una tienda de barrio, integrando
 todos los temas de las Clases 01 a 06 (variables y tipos, funciones, listas, tuplas,
 conjuntos, diccionarios, archivos de texto, módulos propios y manejo de excepciones),
-resolviendo todo con esas estructuras de datos, sin recurrir al módulo `collections`.
+resolviendo todo con esas estructuras de datos.
 
 A diferencia del **Proyecto final 01** (donde transcribías una guía con el código ya
 resuelto), aquí solo recibes el problema y los requisitos que tu solución debe
