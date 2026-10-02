@@ -37,7 +37,7 @@ Requisitos puntuales:
 
 Se mantienen todas las del proyecto original:
 
-- Sin clases propias (POO), sin el módulo `collections`, sin `datetime`.
+- Sin el módulo `collections`, sin `datetime`.
 - Identificadores y comentarios en español.
 - Si agregás alguna conversión numérica nueva, usá `try`/`except` con la excepción
   específica, no un `except` genérico.
