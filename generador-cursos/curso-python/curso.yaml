@@ -1,0 +1,27 @@
+spec_version: "1.0"
+
+course:
+  id: "curso-python"
+  title: "Introducción a la Programación con Python"
+  description: "Curso de fundamentos de programación con Python: variables, funciones, estructuras de datos, diccionarios, archivos de texto, módulos y excepciones."
+
+  category: "PROGRAMMING"
+  level: "BASIC"
+  language: "es"
+  version: "1.0.0"
+
+  author: "Docente"
+
+  tags:
+    - python
+    - programacion
+    - algoritmos
+
+settings:
+  allow_student_downloads: true
+  track_progress: true
+
+repository:
+  structure: "CONVENTIONAL"
+  module_pattern: "^clase-python-[0-9]{2}$"
+  module_sort: "NAME"
