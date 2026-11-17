@@ -1,9 +1,6 @@
-# Solo se publica el material del curso. Todo lo demas
-# (specs, herramientas del generador, scripts sueltos) queda fuera de GitHub.
-/generador-cursos/*
-!/generador-cursos/curso-python
-
-# Artefactos de ejecucion del codigo Python del curso (proyecto final, etc.)
+# Artefactos de ejecucion del codigo Python del curso
 __pycache__/
 *.pyc
-/generador-cursos/curso-python/proyecto-final/solucion/biblioteca.txt
+
+# Artefacto de ejecucion del Proyecto final
+/proyecto-final/solucion/biblioteca.txt
